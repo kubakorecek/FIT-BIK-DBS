@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EB82CAAB-625B-93F2-AE99-3C04201377A7" name="SEZNAM_TECHNIKY">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-04-05 17:24:57 UTC</createdTime>
+<ownerDesignName>jezek</ownerDesignName>
+<engineerTo>
+<item key="C98AFC3C-45D7-A75D-53E6-C9974F40732A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_seznamu_techniky" id="90C8BD2E-0520-0A59-1910-9DF0BE13D4CB">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-04-05 17:25:54 UTC</createdTime>
+<ownerDesignName>jezek</ownerDesignName>
+<engineerTo>
+<item key="C98AFC3C-45D7-A75D-53E6-C9974F40732A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datum_od" id="E12D75F1-744E-0517-CC35-94F86DE48A4F">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-04-05 17:26:02 UTC</createdTime>
+<ownerDesignName>jezek</ownerDesignName>
+<engineerTo>
+<item key="C98AFC3C-45D7-A75D-53E6-C9974F40732A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datum_do" id="21103F03-1D9A-A89A-1899-AFCB225A5E89">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-04-05 17:26:08 UTC</createdTime>
+<ownerDesignName>jezek</ownerDesignName>
+<engineerTo>
+<item key="C98AFC3C-45D7-A75D-53E6-C9974F40732A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_zakazky" id="799F8D0C-7773-F826-5F7B-0C9003D72EB6">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-04-05 17:27:40 UTC</createdTime>
+<generatorID>326DEFE7-B3D7-0802-4C38-D995B577D0B6</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<engineerTo>
+<item key="C98AFC3C-45D7-A75D-53E6-C9974F40732A" value="true"/>
+</engineerTo>
+<referedAttribute>99FE7DDB-B8D3-78BF-BEC9-1DBA388B2649</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="poznamka" id="BCC5B417-E518-CA2A-3829-7812A741B7FE">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-04-11 17:48:40 UTC</createdTime>
+<ownerDesignName>jezek</ownerDesignName>
+<engineerTo>
+<item key="C98AFC3C-45D7-A75D-53E6-C9974F40732A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_techniky" directorySegmentName="seg_0" id="5FC684FE-047F-3B75-E9B6-880C346B8C31">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-25 15:27:45 UTC</createdTime>
+<generatorID>4D80494C-5630-95D4-7BF8-9394AA8F8CEF</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<engineerTo>
+<item key="C98AFC3C-45D7-A75D-53E6-C9974F40732A" value="true"/>
+</engineerTo>
+<referedAttribute>162D1F39-5266-760F-55A5-C56F095E625D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0A7BF9F8-316E-61CA-4117-59349DA8249B" name="SEZNAM_TECHNIKY PK">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-04-05 17:27:12 UTC</createdTime>
+<ownerDesignName>jezek</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C98AFC3C-45D7-A75D-53E6-C9974F40732A" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>90C8BD2E-0520-0A59-1910-9DF0BE13D4CB</attributeRef>
+<attributeRef>799F8D0C-7773-F826-5F7B-0C9003D72EB6</attributeRef>
+<attributeRef>5FC684FE-047F-3B75-E9B6-880C346B8C31</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

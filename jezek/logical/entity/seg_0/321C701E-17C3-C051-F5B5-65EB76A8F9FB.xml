@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="321C701E-17C3-C051-F5B5-65EB76A8F9FB" name="VELKOOBCHOD">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-04-04 07:13:24 UTC</createdTime>
+<ownerDesignName>jezek</ownerDesignName>
+<engineerTo>
+<item key="AE46DC7B-2F00-81CB-82C1-A238B94916B3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>B518974A-8AAC-DA14-DA9F-7D9AE51318AE</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ICO" id="3C02E1F7-2886-2E62-606B-6F2E0D1097DC">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-04-04 07:13:40 UTC</createdTime>
+<ownerDesignName>jezek</ownerDesignName>
+<engineerTo>
+<item key="AE46DC7B-2F00-81CB-82C1-A238B94916B3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DIC" id="4691B081-61F1-52FF-AA61-2F3B28715DF2">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-04-04 07:13:44 UTC</createdTime>
+<ownerDesignName>jezek</ownerDesignName>
+<engineerTo>
+<item key="AE46DC7B-2F00-81CB-82C1-A238B94916B3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_adresy" id="F5302352-1FA5-C611-3C77-AA0F87973CC2">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-04-05 17:04:27 UTC</createdTime>
+<generatorID>DA8223DC-44A3-4CC9-4C99-10746E7E3C5F</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<engineerTo>
+<item key="AE46DC7B-2F00-81CB-82C1-A238B94916B3" value="true"/>
+</engineerTo>
+<referedAttribute>4DA2D550-114C-63A0-F1B0-F02CDC1A5658</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="372E1B7C-7B37-D4DC-B98C-C13BFA9449A0" name="ico">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-04-04 07:16:49 UTC</createdTime>
+<ownerDesignName>jezek</ownerDesignName>
+<engineerTo>
+<item key="AE46DC7B-2F00-81CB-82C1-A238B94916B3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>3C02E1F7-2886-2E62-606B-6F2E0D1097DC</newElementsIDs>
+<usedAttributes>
+<attributeRef>3C02E1F7-2886-2E62-606B-6F2E0D1097DC</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="6F4DA15F-4217-D9BB-9B2A-781E69CDBF6C" name="dic">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-04-04 07:17:06 UTC</createdTime>
+<ownerDesignName>jezek</ownerDesignName>
+<engineerTo>
+<item key="AE46DC7B-2F00-81CB-82C1-A238B94916B3" value="true"/>
+</engineerTo>
+<newElementsIDs>4691B081-61F1-52FF-AA61-2F3B28715DF2</newElementsIDs>
+<usedAttributes>
+<attributeRef>4691B081-61F1-52FF-AA61-2F3B28715DF2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

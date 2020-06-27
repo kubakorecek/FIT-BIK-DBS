@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B6381275-B59B-9869-1D13-9F58DE9144F1" name="TYM">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-04-05 13:47:00 UTC</createdTime>
+<ownerDesignName>jezek</ownerDesignName>
+<engineerTo>
+<item key="AE46DC7B-2F00-81CB-82C1-A238B94916B3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_tymu" id="A1B536F2-DA14-C785-0CFE-D9023728D215">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-04-05 14:09:34 UTC</createdTime>
+<ownerDesignName>jezek</ownerDesignName>
+<engineerTo>
+<item key="AE46DC7B-2F00-81CB-82C1-A238B94916B3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazev" id="72DFD550-DD7A-6C13-29FB-45D2916DE0CC">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-04-05 14:09:41 UTC</createdTime>
+<ownerDesignName>jezek</ownerDesignName>
+<engineerTo>
+<item key="AE46DC7B-2F00-81CB-82C1-A238B94916B3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="popis" id="0B1A987C-2E94-A591-148F-3D26512FC4B7">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-04-05 14:10:06 UTC</createdTime>
+<ownerDesignName>jezek</ownerDesignName>
+<engineerTo>
+<item key="AE46DC7B-2F00-81CB-82C1-A238B94916B3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CB1F55AE-BB11-4A1A-572F-47BCB7E50B55" name="TYM PK">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-04-05 13:47:15 UTC</createdTime>
+<ownerDesignName>jezek</ownerDesignName>
+<engineerTo>
+<item key="AE46DC7B-2F00-81CB-82C1-A238B94916B3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A1B536F2-DA14-C785-0CFE-D9023728D215</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="FCFCAC25-5DF5-38EF-8E1E-8F0E6BC59C2E" name="Key_2">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-04-05 21:26:24 UTC</createdTime>
+<ownerDesignName>jezek</ownerDesignName>
+<engineerTo>
+<item key="AE46DC7B-2F00-81CB-82C1-A238B94916B3" value="true"/>
+</engineerTo>
+<newElementsIDs>72DFD550-DD7A-6C13-29FB-45D2916DE0CC</newElementsIDs>
+<usedAttributes>
+<attributeRef>72DFD550-DD7A-6C13-29FB-45D2916DE0CC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

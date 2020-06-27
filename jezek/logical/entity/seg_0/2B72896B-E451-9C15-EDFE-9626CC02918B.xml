@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2B72896B-E451-9C15-EDFE-9626CC02918B" name="SEZNAM_TYMU">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-04-05 17:25:13 UTC</createdTime>
+<ownerDesignName>jezek</ownerDesignName>
+<engineerTo>
+<item key="C98AFC3C-45D7-A75D-53E6-C9974F40732A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_seznamu_tymu" id="FAB6EE8F-A0FE-08F2-17A0-F0FAED49E280">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-04-05 17:26:17 UTC</createdTime>
+<ownerDesignName>jezek</ownerDesignName>
+<engineerTo>
+<item key="C98AFC3C-45D7-A75D-53E6-C9974F40732A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datum_od" id="AB7FAF75-085E-8922-9A46-3C10266D8888">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-04-05 17:26:22 UTC</createdTime>
+<ownerDesignName>jezek</ownerDesignName>
+<engineerTo>
+<item key="C98AFC3C-45D7-A75D-53E6-C9974F40732A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datum_do" id="595FF0CB-3E0A-F46B-2BA1-D93FB215F814">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-04-05 17:26:27 UTC</createdTime>
+<ownerDesignName>jezek</ownerDesignName>
+<engineerTo>
+<item key="C98AFC3C-45D7-A75D-53E6-C9974F40732A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_tymu" id="8B31D6EF-7ECA-C071-B892-3C84CCA9B08B">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-04-05 17:28:01 UTC</createdTime>
+<generatorID>37971541-0D52-0AFB-B35B-9A846716B014</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<engineerTo>
+<item key="C98AFC3C-45D7-A75D-53E6-C9974F40732A" value="true"/>
+</engineerTo>
+<referedAttribute>A1B536F2-DA14-C785-0CFE-D9023728D215</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_zakazky" id="27A0450B-48D4-28A5-1F11-034340613891">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-04-05 17:47:14 UTC</createdTime>
+<generatorID>CA4D51DA-FC96-C882-D407-C0FCE6793AB0</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<engineerTo>
+<item key="C98AFC3C-45D7-A75D-53E6-C9974F40732A" value="true"/>
+</engineerTo>
+<referedAttribute>99FE7DDB-B8D3-78BF-BEC9-1DBA388B2649</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0F91797C-028A-A653-7410-9CB8FB426F19" name="SEZNAM_TYMU PK">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-04-05 17:27:17 UTC</createdTime>
+<ownerDesignName>jezek</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C98AFC3C-45D7-A75D-53E6-C9974F40732A" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FAB6EE8F-A0FE-08F2-17A0-F0FAED49E280</attributeRef>
+<attributeRef>8B31D6EF-7ECA-C071-B892-3C84CCA9B08B</attributeRef>
+<attributeRef>27A0450B-48D4-28A5-1F11-034340613891</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

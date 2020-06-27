@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="muze_byt_1" directorySegmentName="seg_0" id="E89E88A6-C2CF-54D5-FC16-AFFF27EC1FA8">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-04-04 08:50:39 UTC</createdTime>
+<ownerDesignName>jezek</ownerDesignName>
+<engineerTo>
+<item key="C98AFC3C-45D7-A75D-53E6-C9974F40732A" value="true"/>
+</engineerTo>
+<sourcePk>14BD3A3F-DEA1-F88B-BFAC-F7AB3E65AB44</sourcePk>
+<arc>16B2C0FB-C3F1-4603-DB86-14DD171DF278</arc>
+<identifying>true</identifying>
+<nameOnSource>muze_byt</nameOnSource>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>13189AB9-41BB-3BF1-7303-1DDDE775CAE2</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>A588F84D-CEED-534F-9EE5-6535E56E0B9B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

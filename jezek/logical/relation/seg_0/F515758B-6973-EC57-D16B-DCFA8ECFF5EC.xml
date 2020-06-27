@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="zamestnanec_adresa" directorySegmentName="seg_0" id="F515758B-6973-EC57-D16B-DCFA8ECFF5EC">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-04-03 19:06:35 UTC</createdTime>
+<ownerDesignName>jezek</ownerDesignName>
+<engineerTo>
+<item key="AE46DC7B-2F00-81CB-82C1-A238B94916B3" value="true"/>
+</engineerTo>
+<sourcePk>2F63DBA6-E5F7-65BF-8161-5D99C881BA82</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>ma_zamestance</nameOnSource>
+<nameOnTarget>pracuje_na</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6E7C6148-C464-BF2F-3EE2-2DBCA7B6F309</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D8EB755E-5DC3-2333-2282-AFD145C2C94C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

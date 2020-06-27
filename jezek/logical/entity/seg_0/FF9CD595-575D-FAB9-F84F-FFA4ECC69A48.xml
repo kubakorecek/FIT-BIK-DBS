@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FF9CD595-575D-FAB9-F84F-FFA4ECC69A48" name="ZBOZI">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-04-04 14:47:25 UTC</createdTime>
+<ownerDesignName>jezek</ownerDesignName>
+<engineerTo>
+<item key="C98AFC3C-45D7-A75D-53E6-C9974F40732A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="datum_pouziti" id="550D82B0-C306-777F-92F2-A2EB0BEC964C">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-04-11 17:44:23 UTC</createdTime>
+<ownerDesignName>jezek</ownerDesignName>
+<engineerTo>
+<item key="C98AFC3C-45D7-A75D-53E6-C9974F40732A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_zakazky" id="E376039A-D99E-9F2D-1E78-B9CC4F6017DF">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-04-04 15:05:37 UTC</createdTime>
+<generatorID>F303FD7B-F110-8A09-76EB-0C3CD6C859BD</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<engineerTo>
+<item key="C98AFC3C-45D7-A75D-53E6-C9974F40732A" value="true"/>
+</engineerTo>
+<referedAttribute>99FE7DDB-B8D3-78BF-BEC9-1DBA388B2649</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mnozstvi" id="00311B41-8053-0C34-E65A-58A9A709FEFC">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-04-05 14:11:10 UTC</createdTime>
+<ownerDesignName>jezek</ownerDesignName>
+<engineerTo>
+<item key="C98AFC3C-45D7-A75D-53E6-C9974F40732A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="popis" id="F4D45207-8303-7090-53CE-7EEC19D8E27A">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-04-05 14:11:50 UTC</createdTime>
+<ownerDesignName>jezek</ownerDesignName>
+<engineerTo>
+<item key="C98AFC3C-45D7-A75D-53E6-C9974F40732A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_materialu" id="6C254213-9EBD-3961-16A8-964EF7948CA9">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-04-11 17:38:46 UTC</createdTime>
+<generatorID>0A750CD3-1DA0-7694-B8EE-F09DF9DA5883</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<engineerTo>
+<item key="C98AFC3C-45D7-A75D-53E6-C9974F40732A" value="true"/>
+</engineerTo>
+<referedAttribute>0A50166D-BADC-B909-91FB-8573E4D351E4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<ownDataTypeParameters>,38,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="77AAFC62-C6EE-BA36-98C7-DAC4C36EF546" name="PRODEJ PK">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-04-04 14:47:49 UTC</createdTime>
+<ownerDesignName>jezek</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C98AFC3C-45D7-A75D-53E6-C9974F40732A" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>550D82B0-C306-777F-92F2-A2EB0BEC964C</attributeRef>
+<attributeRef>E376039A-D99E-9F2D-1E78-B9CC4F6017DF</attributeRef>
+<attributeRef>6C254213-9EBD-3961-16A8-964EF7948CA9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

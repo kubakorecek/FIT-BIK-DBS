@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AEE647E4-2AB4-8B29-771F-A3CD26FC8F34" containerWithKeyObject="4B195CCC-EC26-74DE-B390-24AADEE08B01" localFKIndex="A7AC564E-6DE3-DD9E-71ED-A2852DB00CDC" name="CLEN_TYM_FK">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-25 17:25:20 UTC</createdTime>
+<generatorID>60966E2C-0DAD-E3EC-DF7C-39C7073D82FF</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<referredTableLongName>TYM</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>99894E41-C572-D4CC-3235-1965696732C6</referredTableID>
+<keyObject>A895B20D-8AE0-79AA-8C53-5F549F84FDFA</keyObject>
+<referredKeyID>A895B20D-8AE0-79AA-8C53-5F549F84FDFA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_tymu</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

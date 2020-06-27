@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="je_skladem_techniky" directorySegmentName="seg_0" id="F40A6194-99A7-A323-6B04-A3BDE3EE4ED7">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-04-05 14:40:12 UTC</createdTime>
+<ownerDesignName>jezek</ownerDesignName>
+<engineerTo>
+<item key="D0AD7BCE-8504-1D1A-25FB-E7DAD41ABE7B" value="true"/>
+</engineerTo>
+<sourcePk>2F63DBA6-E5F7-65BF-8161-5D99C881BA82</sourcePk>
+<targetPk>9F6E0416-6941-4BF3-5457-3EA40179AF9A</targetPk>
+<dominantRole>6E7C6148-C464-BF2F-3EE2-2DBCA7B6F309</dominantRole>
+<identifying>false</identifying>
+<nameOnSource>je_skladem_techniky</nameOnSource>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>6E7C6148-C464-BF2F-3EE2-2DBCA7B6F309</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>6BB4785C-1373-A4D3-E88D-417C3EFAF524</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

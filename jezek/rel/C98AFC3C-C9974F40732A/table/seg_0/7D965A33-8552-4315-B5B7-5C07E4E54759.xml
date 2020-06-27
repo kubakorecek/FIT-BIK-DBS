@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7D965A33-8552-4315-B5B7-5C07E4E54759" name="ADRESA">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-25 17:25:20 UTC</createdTime>
+<generatorID>F5FB77B7-7024-FE04-ABEC-08BEECE14910</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_adresy" id="15FE2B07-E676-9009-1822-74C50FE26054">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-25 17:25:20 UTC</createdTime>
+<generatorID>4DA2D550-114C-63A0-F1B0-F02CDC1A5658</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<ownDataTypeParameters>,38,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ulice" id="5169947F-0F48-1F12-6CDD-CA7DAF21C02C">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-25 17:25:20 UTC</createdTime>
+<generatorID>64508011-F833-75EB-0373-EC7FFDF79830</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cislo_popisne" id="2016E3DF-E360-9A88-02C4-9EC99201D460">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-25 17:25:20 UTC</createdTime>
+<generatorID>021EC98E-4574-A459-79FA-B692854D299A</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<ownDataTypeParameters>,38,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="psc" id="078747B0-27F3-5708-2EAC-DF81AA522ABD">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-25 17:25:20 UTC</createdTime>
+<generatorID>69BBB32D-EC69-296F-4D62-04CB5CCEAC63</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mesto" id="634F8F6C-86E8-8A36-9BB7-248D6638B60D">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-25 17:25:20 UTC</createdTime>
+<generatorID>68DB173E-B27C-A7FE-0278-6545E9DB720D</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stat" id="56895B93-8C7C-FCC5-5D34-5107E159EFC4">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-25 17:25:20 UTC</createdTime>
+<generatorID>CB774E66-7943-4837-45EF-A3A0C19E906F</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="orientacni_cislo" id="8A666DC9-909E-3AFD-602D-CD2EC83D702E">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-25 17:25:20 UTC</createdTime>
+<generatorID>D5B92E82-CDC3-B2F0-0ABC-3912C5E7DC49</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<ownDataTypeParameters>,38,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="787AC14B-3D35-19AE-5E33-8B8D5C1A9566" name="ADRESA_PK">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-25 17:25:20 UTC</createdTime>
+<generatorID>112FB3B5-68DE-382E-7624-6A6A4D71B7F0</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="15FE2B07-E676-9009-1822-74C50FE26054"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="239F5E22-F855-00AC-4370-8EF1E1BFE86A" name="ADRESA_cislo_popisne_psc_UN">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-25 17:25:20 UTC</createdTime>
+<generatorID>5B77D370-E963-D775-9A76-25376E4B623E</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2016E3DF-E360-9A88-02C4-9EC99201D460"/>
+<colUsage columnID="078747B0-27F3-5708-2EAC-DF81AA522ABD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<InheritanceRelation class="oracle.dbtools.crest.model.design.logical.InheritanceRelation" name="maloobchod" directorySegmentName="seg_0" id="D4CC41F8-A0CE-09A7-7295-DD096B2673FC">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-04-04 07:13:19 UTC</createdTime>
+<ownerDesignName>dbs2</ownerDesignName>
+<engineerTo>
+<item key="D0AD7BCE-8504-1D1A-25FB-E7DAD41ABE7B" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>Super Type</nameOnSource>
+<nameOnTarget>Sub Type</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceEntity>B518974A-8AAC-DA14-DA9F-7D9AE51318AE</sourceEntity>
+<targetEntity>9589A1E6-2EA3-6C11-93D2-D3598149DF17</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</InheritanceRelation>

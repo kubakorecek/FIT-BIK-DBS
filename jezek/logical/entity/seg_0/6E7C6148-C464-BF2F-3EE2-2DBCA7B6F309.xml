@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6E7C6148-C464-BF2F-3EE2-2DBCA7B6F309" name="SIDLO">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-03-31 21:35:09 UTC</createdTime>
+<ownerDesignName>jezek</ownerDesignName>
+<engineerTo>
+<item key="C98AFC3C-45D7-A75D-53E6-C9974F40732A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_sidla" id="C82DE62B-EA08-402B-7D22-330E7D18DA1A">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-04-03 17:38:47 UTC</createdTime>
+<ownerDesignName>jezek</ownerDesignName>
+<engineerTo>
+<item key="C98AFC3C-45D7-A75D-53E6-C9974F40732A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,38,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="jmeno" id="757723D1-BD38-B473-7385-2D9020D52C51">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-04-03 17:39:29 UTC</createdTime>
+<ownerDesignName>jezek</ownerDesignName>
+<engineerTo>
+<item key="C98AFC3C-45D7-A75D-53E6-C9974F40732A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_adresy" id="992E90D4-B43F-946B-8FC2-7A153CB89F7A">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-04-03 17:57:41 UTC</createdTime>
+<generatorID>B19AB65C-D51E-F4AA-E389-7B367D1317A3</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<engineerTo>
+<item key="C98AFC3C-45D7-A75D-53E6-C9974F40732A" value="true"/>
+</engineerTo>
+<referedAttribute>4DA2D550-114C-63A0-F1B0-F02CDC1A5658</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<ownDataTypeParameters>,38,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="plocha" id="B6A67D60-CEF1-B063-2C06-39E2B3A23740">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-04-05 16:52:11 UTC</createdTime>
+<ownerDesignName>jezek</ownerDesignName>
+<engineerTo>
+<item key="C98AFC3C-45D7-A75D-53E6-C9974F40732A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_materialu" id="F8EE50D5-AD1A-8E51-A4A4-DE00E41B001F">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-04-11 21:46:26 UTC</createdTime>
+<generatorID>F9CCBBFF-B529-6DFC-21CB-290606A47B2D</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<engineerTo>
+<item key="C98AFC3C-45D7-A75D-53E6-C9974F40732A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>0A50166D-BADC-B909-91FB-8573E4D351E4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<ownDataTypeParameters>,38,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazev_typu" directorySegmentName="seg_0" id="679EB2F1-89EC-9ACF-D871-A8C25BC97844">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-25 15:25:28 UTC</createdTime>
+<generatorID>54271D71-07DF-C4B0-FD25-336A06456F76</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<engineerTo>
+<item key="C98AFC3C-45D7-A75D-53E6-C9974F40732A" value="true"/>
+</engineerTo>
+<referedAttribute>48CCA6A6-0ED7-8181-4809-FD55A0CF4A16</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2F63DBA6-E5F7-65BF-8161-5D99C881BA82" name="sidla PK">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-04-03 17:38:59 UTC</createdTime>
+<ownerDesignName>jezek</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C98AFC3C-45D7-A75D-53E6-C9974F40732A" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C82DE62B-EA08-402B-7D22-330E7D18DA1A</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="E73DD6EA-5F91-D871-2DA5-BC7B249FD7C6" name="nazev_uq">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-04-05 16:51:30 UTC</createdTime>
+<ownerDesignName>jezek</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C98AFC3C-45D7-A75D-53E6-C9974F40732A" value="false"/>
+</engineerTo>
+<newElementsIDs>757723D1-BD38-B473-7385-2D9020D52C51</newElementsIDs>
+<usedAttributes>
+<attributeRef>757723D1-BD38-B473-7385-2D9020D52C51</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

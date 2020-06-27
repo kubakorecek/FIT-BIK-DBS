@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0924DEC6-23A8-D76B-213F-CF7C5207579C" name="MALOOBCHOD">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-25 17:25:20 UTC</createdTime>
+<generatorID>9589A1E6-2EA3-6C11-93D2-D3598149DF17</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_zakaznik" id="E6A72FE5-62D9-B18B-74C0-2734679972EB">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-25 17:25:20 UTC</createdTime>
+<generatorID>C6A8C45B-7C9D-F82E-25AD-A5AE17DDC2EA</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vek" id="6C4F68D5-3B76-758C-FDD3-0612B8E883F4">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-25 17:25:20 UTC</createdTime>
+<generatorID>F0C3A246-23BE-C194-9266-80ED4FC8545B</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pohlavi" id="CF0558F3-F854-367B-26BD-9A597D22D131">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-25 17:25:20 UTC</createdTime>
+<generatorID>4836DC00-E235-FA1E-A462-B7C2FC19FAF3</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prijmeni" id="4E1DF6CB-3C03-9F69-CBB2-6D300F7AF5B9">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-25 17:25:20 UTC</createdTime>
+<generatorID>A66C0251-CE76-692A-4D7C-446E197270F4</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="titul" id="2FF78BED-92DB-95F0-8A93-865B064D4BBD">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-25 17:25:20 UTC</createdTime>
+<generatorID>3F421503-F5A3-1988-21F4-B94DE63E8F0E</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="262E64A9-7150-4595-039A-362ECC1927A1" name="MALOOBCHOD_PK">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-25 17:25:20 UTC</createdTime>
+<generatorID>FBB1D7FB-609D-9541-E02D-F8E64836FEF5</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6A72FE5-62D9-B18B-74C0-2734679972EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

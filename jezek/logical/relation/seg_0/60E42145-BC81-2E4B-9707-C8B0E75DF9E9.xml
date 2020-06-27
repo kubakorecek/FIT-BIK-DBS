@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="objednava" directorySegmentName="seg_0" id="60E42145-BC81-2E4B-9707-C8B0E75DF9E9">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-04-05 14:04:12 UTC</createdTime>
+<ownerDesignName>jezek</ownerDesignName>
+<engineerTo>
+<item key="D0AD7BCE-8504-1D1A-25FB-E7DAD41ABE7B" value="true"/>
+</engineerTo>
+<sourcePk>FBB1D7FB-609D-9541-E02D-F8E64836FEF5</sourcePk>
+<identifying>true</identifying>
+<nameOnTarget>objednava</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B518974A-8AAC-DA14-DA9F-7D9AE51318AE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0C60F9F4-363F-B5C7-1EDA-F5E6101EFEFE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

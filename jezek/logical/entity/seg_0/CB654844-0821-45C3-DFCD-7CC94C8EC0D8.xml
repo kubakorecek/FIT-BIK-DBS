@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CB654844-0821-45C3-DFCD-7CC94C8EC0D8" name="CLEN">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-04-05 16:34:30 UTC</createdTime>
+<ownerDesignName>jezek</ownerDesignName>
+<engineerTo>
+<item key="C98AFC3C-45D7-A75D-53E6-C9974F40732A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="clen_od" id="D6954547-6CA4-2440-7024-1F9CCE8E8A42">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-04-05 16:34:54 UTC</createdTime>
+<ownerDesignName>jezek</ownerDesignName>
+<engineerTo>
+<item key="C98AFC3C-45D7-A75D-53E6-C9974F40732A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="clen_do" id="81B7E00B-8DD9-9C8D-AEE7-5DB766B6067A">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-04-05 16:35:07 UTC</createdTime>
+<ownerDesignName>jezek</ownerDesignName>
+<engineerTo>
+<item key="C98AFC3C-45D7-A75D-53E6-C9974F40732A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_zamestnanec" id="EE70E51D-EC78-CC97-7798-7010B6CA5899">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-04-05 16:35:58 UTC</createdTime>
+<generatorID>A9BE1BD6-4AD9-51E8-E8D3-904808E30576</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<engineerTo>
+<item key="C98AFC3C-45D7-A75D-53E6-C9974F40732A" value="true"/>
+</engineerTo>
+<referedAttribute>5EC0080B-B218-99D1-1ADF-579A8D5549E3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<ownDataTypeParameters>,38,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_tymu" id="B255A950-AE62-3937-4CE7-795411AD7A38">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-04-05 16:37:17 UTC</createdTime>
+<generatorID>60966E2C-0DAD-E3EC-DF7C-39C7073D82FF</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<engineerTo>
+<item key="C98AFC3C-45D7-A75D-53E6-C9974F40732A" value="true"/>
+</engineerTo>
+<referedAttribute>A1B536F2-DA14-C785-0CFE-D9023728D215</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F9FF965B-B5CC-AF0A-0CCC-B5F00D39E6D8" name="CLEN PK">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-04-05 16:35:58 UTC</createdTime>
+<ownerDesignName>jezek</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C98AFC3C-45D7-A75D-53E6-C9974F40732A" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EE70E51D-EC78-CC97-7798-7010B6CA5899</attributeRef>
+<attributeRef>D6954547-6CA4-2440-7024-1F9CCE8E8A42</attributeRef>
+<attributeRef>B255A950-AE62-3937-4CE7-795411AD7A38</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

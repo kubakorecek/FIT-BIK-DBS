@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ma_fakturacni_adresu_34" directorySegmentName="seg_0" id="DA8223DC-44A3-4CC9-4C99-10746E7E3C5F">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-04-05 17:04:27 UTC</createdTime>
+<ownerDesignName>jezek</ownerDesignName>
+<engineerTo>
+<item key="D0AD7BCE-8504-1D1A-25FB-E7DAD41ABE7B" value="true"/>
+</engineerTo>
+<sourcePk>112FB3B5-68DE-382E-7624-6A6A4D71B7F0</sourcePk>
+<identifying>false</identifying>
+<nameOnTarget>ma_fakturacni_adresu</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F5FB77B7-7024-FE04-ABEC-08BEECE14910</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>321C701E-17C3-C051-F5B5-65EB76A8F9FB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

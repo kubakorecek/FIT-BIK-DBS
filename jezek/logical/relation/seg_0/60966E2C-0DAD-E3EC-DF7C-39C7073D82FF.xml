@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="je_v_tymu" directorySegmentName="seg_0" id="60966E2C-0DAD-E3EC-DF7C-39C7073D82FF">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-04-05 13:48:17 UTC</createdTime>
+<ownerDesignName>jezek</ownerDesignName>
+<engineerTo>
+<item key="AE46DC7B-2F00-81CB-82C1-A238B94916B3" value="true"/>
+</engineerTo>
+<sourcePk>CB1F55AE-BB11-4A1A-572F-47BCB7E50B55</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>tym_ma</nameOnSource>
+<nameOnTarget>je_v_tymu</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B6381275-B59B-9869-1D13-9F58DE9144F1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CB654844-0821-45C3-DFCD-7CC94C8EC0D8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
