@@ -4,7 +4,7 @@
 <createdTime>2020-04-05 15:50:24 UTC</createdTime>
 <ownerDesignName>jezek</ownerDesignName>
 <engineerTo>
-<item key="AE46DC7B-2F00-81CB-82C1-A238B94916B3" value="true"/>
+<item key="DF5C361E-33FF-C4CA-C5CE-31E2C47B3F62" value="true"/>
 </engineerTo>
 <sourcePk>6C9A0A4A-0EC4-4A37-1D29-E50FD9D7F3CE</sourcePk>
 <identifying>false</identifying>
@@ -13,7 +13,7 @@
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>4F7E636E-F6A8-2955-DFC2-6FF29581AF3E</sourceEntity>
-<targetCardinalityString>*</targetCardinalityString>
+<targetCardinalityString>1</targetCardinalityString>
 <targetEntity>6E7C6148-C464-BF2F-3EE2-2DBCA7B6F309</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>

@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AC2F1AAC-AA5A-6F5A-B431-F7AD7529D8F2" name="TYM">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-27 17:30:55 UTC</createdTime>
+<generatorID>B6381275-B59B-9869-1D13-9F58DE9144F1</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_tymu" id="B668FD39-9BE8-5FA5-DB56-A4025073AC0C">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-27 17:30:55 UTC</createdTime>
+<generatorID>A1B536F2-DA14-C785-0CFE-D9023728D215</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazev" id="24158576-1863-14C9-9F6D-A0D0C424A066">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-27 17:30:55 UTC</createdTime>
+<generatorID>72DFD550-DD7A-6C13-29FB-45D2916DE0CC</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="popis" id="FCD4CA09-0BD4-B0CE-DED1-64C20EB8C5A2">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-27 17:30:55 UTC</createdTime>
+<generatorID>0B1A987C-2E94-A591-148F-3D26512FC4B7</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B4691AF8-591B-6701-DAFF-F24B3DD3329A" name="TYM_PK">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-27 17:30:55 UTC</createdTime>
+<generatorID>CB1F55AE-BB11-4A1A-572F-47BCB7E50B55</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B668FD39-9BE8-5FA5-DB56-A4025073AC0C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3DE2D61E-F146-0D4A-E863-3587853D63A8" name="TYM_nazev_UN">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-27 17:30:55 UTC</createdTime>
+<generatorID>FCFCAC25-5DF5-38EF-8E1E-8F0E6BC59C2E</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24158576-1863-14C9-9F6D-A0D0C424A066"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

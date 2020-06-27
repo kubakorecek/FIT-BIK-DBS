@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="91A62CD0-457A-FA39-BDE8-21E03B042B2D" name="ZAKAZNIK">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-27 18:32:28 UTC</createdTime>
+<generatorID>B518974A-8AAC-DA14-DA9F-7D9AE51318AE</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_zakaznik" id="14E31E5B-D4EB-A58D-50AB-1D3B11FE53D9">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-27 18:32:28 UTC</createdTime>
+<generatorID>C6A8C45B-7C9D-F82E-25AD-A5AE17DDC2EA</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefon" id="E97682E7-4F68-19E4-5CA4-0FA7CEFCF645">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-27 18:32:28 UTC</createdTime>
+<generatorID>2B82179D-E7DF-1F90-900B-D1AB447789C7</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADRESA" id="22416090-073A-58F7-1601-56354DBF2A68">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-27 18:32:28 UTC</createdTime>
+<generatorID>749FD6E2-228D-E6F3-8316-090A06005CA7</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="460AFBD8-F18C-D243-B4F2-3761C20C7D48" referredColumn="20AEED0C-E1A5-4D92-87BA-239FC37C3524"/>
+</associations>
+</Column>
+<Column name="jmeno" id="6D6AB41D-E1A1-F240-FE24-7D6F1B37F609">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-27 18:32:28 UTC</createdTime>
+<generatorID>BFD41B6C-9DA4-606B-7C38-E342A2ED261A</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="18870943-2FD2-0D12-11F7-152EEDB4BA12">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-27 18:32:28 UTC</createdTime>
+<generatorID>54E68E98-75DF-FF79-1871-86E079715F7F</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>400 CHAR</dataTypeSize>
+<ownDataTypeParameters>400 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZAKAZNIK_TYPE" id="D1FFE4AF-8DAE-4027-AFEF-337FCF77AACF">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-27 18:32:28 UTC</createdTime>
+<ownerDesignName>jezek</ownerDesignName>
+<constraintName>CH_INH_ZAKAZNIK</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<listOfValues>
+<valueDef value="MAL_OBCH" description="entity MALOOBCHOD"/>
+<valueDef value="VEL_OBCH" description="entity VELKOOBCHOD"/>
+</listOfValues>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isDiscriminatorColumn>true</isDiscriminatorColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="800C7457-4D45-1809-44A6-59585100AE69" name="PK_ZAKAZNIK">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-27 18:32:28 UTC</createdTime>
+<generatorID>FBB1D7FB-609D-9541-E02D-F8E64836FEF5</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14E31E5B-D4EB-A58D-50AB-1D3B11FE53D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="678F757A-36D1-7243-9483-3E1F2893E12A" name="UX_ZAKAZNIK_telefon">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-27 18:32:28 UTC</createdTime>
+<generatorID>E9855D4D-DD94-86DD-5E94-D726A056EE08</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E97682E7-4F68-19E4-5CA4-0FA7CEFCF645"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B1E5DD9D-A58A-FD92-75E2-BB6580FE2D54" name="FK_ZAKAZNIK_ADRESA">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-27 18:32:28 UTC</createdTime>
+<generatorID>61F59434-B0FA-8A9A-0EA3-33A2E50BE25F</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="22416090-073A-58F7-1601-56354DBF2A68"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

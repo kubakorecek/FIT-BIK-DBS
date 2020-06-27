@@ -4,7 +4,8 @@
 <createdTime>2020-04-04 08:42:16 UTC</createdTime>
 <ownerDesignName>jezek</ownerDesignName>
 <engineerTo>
-<item key="C98AFC3C-45D7-A75D-53E6-C9974F40732A" value="true"/>
+<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="true"/>
+<item key="DF5C361E-33FF-C4CA-C5CE-31E2C47B3F62" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,12 +22,13 @@
 <generatorID>F0DE9C0A-A1E9-D432-BC4D-E3FA7CC7F446</generatorID>
 <ownerDesignName>jezek</ownerDesignName>
 <engineerTo>
-<item key="C98AFC3C-45D7-A75D-53E6-C9974F40732A" value="true"/>
+<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="true"/>
+<item key="DF5C361E-33FF-C4CA-C5CE-31E2C47B3F62" value="true"/>
 </engineerTo>
 <referedAttribute>ED5148AC-42E4-5098-EA1D-43C13D143739</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="cas" id="43B929C5-9F3F-D61A-B720-CEA5D33E9F47">
@@ -34,7 +36,8 @@
 <createdTime>2020-04-04 14:51:51 UTC</createdTime>
 <ownerDesignName>jezek</ownerDesignName>
 <engineerTo>
-<item key="C98AFC3C-45D7-A75D-53E6-C9974F40732A" value="true"/>
+<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="true"/>
+<item key="DF5C361E-33FF-C4CA-C5CE-31E2C47B3F62" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -46,7 +49,8 @@
 <createdTime>2020-04-04 14:54:18 UTC</createdTime>
 <ownerDesignName>jezek</ownerDesignName>
 <engineerTo>
-<item key="C98AFC3C-45D7-A75D-53E6-C9974F40732A" value="true"/>
+<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="true"/>
+<item key="DF5C361E-33FF-C4CA-C5CE-31E2C47B3F62" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -57,12 +61,14 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="BF474898-4288-B99D-C829-D38DF65D239D" name="UDRZBA PK">
+<identifier id="BF474898-4288-B99D-C829-D38DF65D239D" name="PK_UDRZBA">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-04-04 08:56:47 UTC</createdTime>
 <ownerDesignName>jezek</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="C98AFC3C-45D7-A75D-53E6-C9974F40732A" value="true"/>
+<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="false"/>
+<item key="DF5C361E-33FF-C4CA-C5CE-31E2C47B3F62" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

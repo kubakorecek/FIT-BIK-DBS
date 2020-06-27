@@ -4,7 +4,8 @@
 <createdTime>2020-04-05 16:34:30 UTC</createdTime>
 <ownerDesignName>jezek</ownerDesignName>
 <engineerTo>
-<item key="C98AFC3C-45D7-A75D-53E6-C9974F40732A" value="true"/>
+<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="true"/>
+<item key="DF5C361E-33FF-C4CA-C5CE-31E2C47B3F62" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,11 +21,13 @@
 <createdTime>2020-04-05 16:34:54 UTC</createdTime>
 <ownerDesignName>jezek</ownerDesignName>
 <engineerTo>
-<item key="C98AFC3C-45D7-A75D-53E6-C9974F40732A" value="true"/>
+<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="true"/>
+<item key="DF5C361E-33FF-C4CA-C5CE-31E2C47B3F62" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
+<defaultValue>SYSDATE</defaultValue>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="clen_do" id="81B7E00B-8DD9-9C8D-AEE7-5DB766B6067A">
@@ -32,7 +35,8 @@
 <createdTime>2020-04-05 16:35:07 UTC</createdTime>
 <ownerDesignName>jezek</ownerDesignName>
 <engineerTo>
-<item key="C98AFC3C-45D7-A75D-53E6-C9974F40732A" value="true"/>
+<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="true"/>
+<item key="DF5C361E-33FF-C4CA-C5CE-31E2C47B3F62" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -46,14 +50,14 @@
 <generatorID>A9BE1BD6-4AD9-51E8-E8D3-904808E30576</generatorID>
 <ownerDesignName>jezek</ownerDesignName>
 <engineerTo>
-<item key="C98AFC3C-45D7-A75D-53E6-C9974F40732A" value="true"/>
+<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="true"/>
+<item key="DF5C361E-33FF-C4CA-C5CE-31E2C47B3F62" value="true"/>
 </engineerTo>
 <referedAttribute>5EC0080B-B218-99D1-1ADF-579A8D5549E3</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>38</dataTypePrecision>
-<ownDataTypeParameters>,38,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id_tymu" id="B255A950-AE62-3937-4CE7-795411AD7A38">
 <createdBy>kubak182</createdBy>
@@ -61,23 +65,25 @@
 <generatorID>60966E2C-0DAD-E3EC-DF7C-39C7073D82FF</generatorID>
 <ownerDesignName>jezek</ownerDesignName>
 <engineerTo>
-<item key="C98AFC3C-45D7-A75D-53E6-C9974F40732A" value="true"/>
+<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="true"/>
+<item key="DF5C361E-33FF-C4CA-C5CE-31E2C47B3F62" value="true"/>
 </engineerTo>
 <referedAttribute>A1B536F2-DA14-C785-0CFE-D9023728D215</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="F9FF965B-B5CC-AF0A-0CCC-B5F00D39E6D8" name="CLEN PK">
+<identifier id="F9FF965B-B5CC-AF0A-0CCC-B5F00D39E6D8" name="PK_CLEN">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-04-05 16:35:58 UTC</createdTime>
 <ownerDesignName>jezek</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="C98AFC3C-45D7-A75D-53E6-C9974F40732A" value="false"/>
+<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="false"/>
+<item key="DF5C361E-33FF-C4CA-C5CE-31E2C47B3F62" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

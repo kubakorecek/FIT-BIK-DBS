@@ -1,0 +1,175 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C0541789-C423-CAB0-79FC-812D3C8E3152" name="MATERIAL">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-27 17:30:55 UTC</createdTime>
+<generatorID>FF9CD595-575D-FAB9-F84F-FFA4ECC69A48</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_materialu" id="A9210B58-AC78-4816-F603-83DD1B5158F0">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-27 17:30:55 UTC</createdTime>
+<generatorID>AD7ACD9E-FC74-27FF-E40D-B4B49681D4FA</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZAKAZKA_id_zakazky" id="1099D42A-BFD7-5E3E-7B78-0462D264193F">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-27 17:30:55 UTC</createdTime>
+<generatorID>E376039A-D99E-9F2D-1E78-B9CC4F6017DF</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C32ED2A4-9B13-8279-B1D7-00B502CFD888" referredColumn="BEAB973E-FB3B-EFD8-F4A0-C075B86E3352"/>
+</associations>
+</Column>
+<Column name="mnozstvi" id="262EE0FE-9847-4E91-BCAC-C7FEA1A3A3D4">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-27 17:30:55 UTC</createdTime>
+<generatorID>00311B41-8053-0C34-E65A-58A9A709FEFC</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="popis" id="9D21A2E3-59F8-24C4-157B-E349B7C6A0B9">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-27 17:30:55 UTC</createdTime>
+<generatorID>F4D45207-8303-7090-53CE-7EEC19D8E27A</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SKLAD_MATERIALU_id_skladu_materialu" id="9F6418F1-55A0-41E2-A569-3D1CBED527B3">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-27 17:30:55 UTC</createdTime>
+<generatorID>6C254213-9EBD-3961-16A8-964EF7948CA9</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EED35099-DA36-22A0-8B58-FE0B3DFC3C5F" referredColumn="E621DE32-BF53-4760-2352-94C8E5CB1D48"/>
+</associations>
+</Column>
+<Column name="jmeno_materialu" id="1B588921-0D32-A1DB-1078-A53F7C385E60">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-27 17:30:55 UTC</createdTime>
+<generatorID>C5932C48-B7A1-46FE-43BF-6D1038818F25</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="skladem" id="AC4A3ABE-6B32-0163-05BE-4FE274CC0732">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-27 17:30:55 UTC</createdTime>
+<generatorID>EEB95B05-8BAC-9DA5-F0ED-EDA746748344</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cena" id="F89D8C27-01DA-4CED-197F-7BC8164B010E">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-27 17:30:55 UTC</createdTime>
+<generatorID>5AA47ACA-A9D0-51A6-AF2B-6816C528899A</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="porizovaci_cena" id="D2885022-C08B-5D5F-58B1-93245AE0DDEF">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-27 17:30:55 UTC</createdTime>
+<generatorID>182F29E8-C44C-A246-1674-29A6CBE71A49</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5EBB962A-8107-95E4-A449-5ADF92E28C35" name="MATERIAL_PK">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-27 17:30:55 UTC</createdTime>
+<generatorID>77AAFC62-C6EE-BA36-98C7-DAC4C36EF546</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1099D42A-BFD7-5E3E-7B78-0462D264193F"/>
+<colUsage columnID="9F6418F1-55A0-41E2-A569-3D1CBED527B3"/>
+<colUsage columnID="A9210B58-AC78-4816-F603-83DD1B5158F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1FEC597F-2B77-84BC-62AC-0AAED7D1E2FC" name="MATERIAL_jmeno_materialu_UN">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-27 17:30:55 UTC</createdTime>
+<generatorID>F646799F-73BF-F1C2-B9C2-53038C6440C0</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B588921-0D32-A1DB-1078-A53F7C385E60"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2D6EB981-BA8E-77E7-DC7E-96ED6C18C470" name="MATERIAL_ZAKAZKA_FK">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-27 17:30:55 UTC</createdTime>
+<generatorID>F303FD7B-F110-8A09-76EB-0C3CD6C859BD</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1099D42A-BFD7-5E3E-7B78-0462D264193F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9E690A51-3927-6E69-160D-CA2C96DD2D64" name="MATERIAL_SKLAD_MATERIALU_FK">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-27 17:30:55 UTC</createdTime>
+<generatorID>0A750CD3-1DA0-7694-B8EE-F09DF9DA5883</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F6418F1-55A0-41E2-A569-3D1CBED527B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="17AD72D4-A0E0-B8E5-20A7-9F42912786FF" containerWithKeyObject="88BACA62-5FCD-CE8A-A5B7-6662A1AF6048" localFKIndex="1983386C-A901-E1FB-C05A-CC4716EDFCE7" name="UDRZBA_NABIDKA_SLUZBY_FK">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-27 17:30:55 UTC</createdTime>
+<generatorID>F0DE9C0A-A1E9-D432-BC4D-E3FA7CC7F446</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<referredTableLongName>NABIDKA_SLUZBY</referredTableLongName>
+<arc>7E062B9D-5529-B06C-1B68-D021967370ED</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9F84A51A-6D59-36A3-0A89-6E2CC4E0ABF9</referredTableID>
+<keyObject>CC1E76C1-7A25-579C-F466-55123E8EB259</keyObject>
+<referredKeyID>CC1E76C1-7A25-579C-F466-55123E8EB259</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_nabidky</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

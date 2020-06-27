@@ -4,7 +4,8 @@
 <createdTime>2020-04-04 07:26:32 UTC</createdTime>
 <ownerDesignName>jezek</ownerDesignName>
 <engineerTo>
-<item key="C98AFC3C-45D7-A75D-53E6-C9974F40732A" value="true"/>
+<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="true"/>
+<item key="DF5C361E-33FF-C4CA-C5CE-31E2C47B3F62" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -14,6 +15,8 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<shortName>NAB_SL</shortName>
+<generateDiscrimColumn>true</generateDiscrimColumn>
 <completeSubtypes>true</completeSubtypes>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="id_nabidky" id="ED5148AC-42E4-5098-EA1D-43C13D143739">
@@ -21,11 +24,12 @@
 <createdTime>2020-04-04 07:28:40 UTC</createdTime>
 <ownerDesignName>jezek</ownerDesignName>
 <engineerTo>
-<item key="C98AFC3C-45D7-A75D-53E6-C9974F40732A" value="true"/>
+<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="true"/>
+<item key="DF5C361E-33FF-C4CA-C5CE-31E2C47B3F62" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id_typ_sluzby" id="3EB0C282-B372-01AA-27B5-9AAE0BFB87F0">
@@ -34,12 +38,14 @@
 <generatorID>BEFB9779-5134-C2F0-B9CB-9F732B62EE57</generatorID>
 <ownerDesignName>jezek</ownerDesignName>
 <engineerTo>
-<item key="C98AFC3C-45D7-A75D-53E6-C9974F40732A" value="true"/>
+<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="true"/>
+<item key="DF5C361E-33FF-C4CA-C5CE-31E2C47B3F62" value="true"/>
 </engineerTo>
 <referedAttribute>9C16DDAE-E86F-8AC6-0BDE-732B1C8776EE</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="datum_do" id="21BA11D8-29E9-9E46-F1A8-5DCC179055F8">
@@ -47,7 +53,8 @@
 <createdTime>2020-04-04 14:04:51 UTC</createdTime>
 <ownerDesignName>jezek</ownerDesignName>
 <engineerTo>
-<item key="C98AFC3C-45D7-A75D-53E6-C9974F40732A" value="true"/>
+<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="true"/>
+<item key="DF5C361E-33FF-C4CA-C5CE-31E2C47B3F62" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -59,35 +66,39 @@
 <createdTime>2020-04-04 14:04:52 UTC</createdTime>
 <ownerDesignName>jezek</ownerDesignName>
 <engineerTo>
-<item key="C98AFC3C-45D7-A75D-53E6-C9974F40732A" value="true"/>
+<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="true"/>
+<item key="DF5C361E-33FF-C4CA-C5CE-31E2C47B3F62" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_zakazky" id="E6C80857-E0A7-2AFC-1334-CC71B086C24C">
+<Attribute name="id_zakazky" id="B35003EB-6BA2-1B0A-462E-5204E64063A6">
 <createdBy>kubak182</createdBy>
-<createdTime>2020-04-04 14:57:32 UTC</createdTime>
+<createdTime>2020-06-27 17:45:17 UTC</createdTime>
 <generatorID>53039709-D8DF-513A-3CD9-D7EB624AAB09</generatorID>
 <ownerDesignName>jezek</ownerDesignName>
 <engineerTo>
-<item key="C98AFC3C-45D7-A75D-53E6-C9974F40732A" value="true"/>
+<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="true"/>
+<item key="DF5C361E-33FF-C4CA-C5CE-31E2C47B3F62" value="true"/>
 </engineerTo>
 <referedAttribute>99FE7DDB-B8D3-78BF-BEC9-1DBA388B2649</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="14BD3A3F-DEA1-F88B-BFAC-F7AB3E65AB44" name="NABIDKA_SLUZBY PK">
+<identifier id="14BD3A3F-DEA1-F88B-BFAC-F7AB3E65AB44" name="PK_NABIDKA_SLUZBY">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-04-04 08:56:47 UTC</createdTime>
 <ownerDesignName>jezek</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="C98AFC3C-45D7-A75D-53E6-C9974F40732A" value="true"/>
+<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="false"/>
+<item key="DF5C361E-33FF-C4CA-C5CE-31E2C47B3F62" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

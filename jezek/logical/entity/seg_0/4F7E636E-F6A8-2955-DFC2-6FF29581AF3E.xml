@@ -4,7 +4,8 @@
 <createdTime>2020-04-05 15:22:36 UTC</createdTime>
 <ownerDesignName>jezek</ownerDesignName>
 <engineerTo>
-<item key="AE46DC7B-2F00-81CB-82C1-A238B94916B3" value="true"/>
+<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="true"/>
+<item key="DF5C361E-33FF-C4CA-C5CE-31E2C47B3F62" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -15,41 +16,45 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="nazev_typu" id="48CCA6A6-0ED7-8181-4809-FD55A0CF4A16">
+<Attribute name="id_nazev_typu" id="48CCA6A6-0ED7-8181-4809-FD55A0CF4A16">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-04-05 15:28:57 UTC</createdTime>
 <ownerDesignName>jezek</ownerDesignName>
 <engineerTo>
-<item key="AE46DC7B-2F00-81CB-82C1-A238B94916B3" value="true"/>
+<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="true"/>
+<item key="DF5C361E-33FF-C4CA-C5CE-31E2C47B3F62" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="popis" id="76E09329-7D2B-2CE8-90BE-594ED8B03403">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-04-05 16:49:51 UTC</createdTime>
 <ownerDesignName>jezek</ownerDesignName>
 <engineerTo>
-<item key="AE46DC7B-2F00-81CB-82C1-A238B94916B3" value="true"/>
+<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="true"/>
+<item key="DF5C361E-33FF-C4CA-C5CE-31E2C47B3F62" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>1000</dataTypeSize>
-<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<dataTypeSize>1000 CHAR</dataTypeSize>
+<ownDataTypeParameters>1000 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="6C9A0A4A-0EC4-4A37-1D29-E50FD9D7F3CE" name="TYP_SIDLA PK">
+<identifier id="6C9A0A4A-0EC4-4A37-1D29-E50FD9D7F3CE" name="PK_TYP_SIDLA">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-04-05 15:50:15 UTC</createdTime>
 <ownerDesignName>jezek</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="AE46DC7B-2F00-81CB-82C1-A238B94916B3" value="true"/>
+<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="false"/>
+<item key="DF5C361E-33FF-C4CA-C5CE-31E2C47B3F62" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <newElementsIDs>48CCA6A6-0ED7-8181-4809-FD55A0CF4A16</newElementsIDs>

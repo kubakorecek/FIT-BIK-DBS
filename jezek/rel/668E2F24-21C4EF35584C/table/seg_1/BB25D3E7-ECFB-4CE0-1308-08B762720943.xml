@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="BB25D3E7-ECFB-4CE0-1308-08B762720943" name="SKLAD_TECHNIKY">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-27 18:32:28 UTC</createdTime>
+<generatorID>6BB4785C-1373-A4D3-E88D-417C3EFAF524</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<abbreviation>SKL_TECH</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_skladu_techniky" id="7102D815-D631-049A-0467-856BFFA01A24">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-27 18:32:28 UTC</createdTime>
+<generatorID>162D1F39-5266-760F-55A5-C56F095E625D</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazev_skladu" id="361D6C34-4227-3B97-C0F2-5ADCD1371747">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-27 18:32:28 UTC</createdTime>
+<generatorID>281C3EB8-6AE9-B7E4-ABCF-4A327A9A852A</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 CHAR</dataTypeSize>
+<ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="popis" id="8E57B1F5-2951-0E02-36FB-D52ADE27D0E0">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-27 18:32:28 UTC</createdTime>
+<generatorID>AEAE7C47-E7AA-44D5-B158-202F964BB5EB</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 CHAR</dataTypeSize>
+<ownDataTypeParameters>4000 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SIDLO" id="4082295C-E053-950C-7998-94775679CD68">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-27 18:32:28 UTC</createdTime>
+<generatorID>24FF530F-01C6-7550-62A6-A8039269816C</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CADA52E7-5D9B-1CB3-57AF-F7FFA1EC4E9E" referredColumn="5714041C-49BA-6537-A75C-83272C6887A5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6CB80320-7F5B-E69D-0350-3FA9A9B36574" name="PK_SKL_TECH">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-27 18:32:28 UTC</createdTime>
+<generatorID>9F6E0416-6941-4BF3-5457-3EA40179AF9A</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7102D815-D631-049A-0467-856BFFA01A24"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="42621267-48A4-2E5A-2494-1062898EA16A" name="UX_SKL_TECH_nazev_skladu">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-27 18:32:28 UTC</createdTime>
+<generatorID>27B25E49-E585-FC0E-8BFC-55514EBBC6B5</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="361D6C34-4227-3B97-C0F2-5ADCD1371747"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1A291B89-DBF3-87FE-F7D3-B0072075B268" name="FK_SKL_TECH_SIDLO">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-27 18:32:28 UTC</createdTime>
+<generatorID>9D433518-16E6-51CE-84A9-022E6AFCEB96</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4082295C-E053-950C-7998-94775679CD68"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

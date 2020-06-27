@@ -4,7 +4,8 @@
 <createdTime>2020-04-04 15:25:11 UTC</createdTime>
 <ownerDesignName>jezek</ownerDesignName>
 <engineerTo>
-<item key="AE46DC7B-2F00-81CB-82C1-A238B94916B3" value="true"/>
+<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="true"/>
+<item key="DF5C361E-33FF-C4CA-C5CE-31E2C47B3F62" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -14,68 +15,75 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<shortName>SKL_TECH</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_techniky" id="162D1F39-5266-760F-55A5-C56F095E625D">
+<Attribute name="id_skladu_techniky" id="162D1F39-5266-760F-55A5-C56F095E625D">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-04-05 15:27:30 UTC</createdTime>
 <ownerDesignName>jezek</ownerDesignName>
 <engineerTo>
-<item key="AE46DC7B-2F00-81CB-82C1-A238B94916B3" value="true"/>
+<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="true"/>
+<item key="DF5C361E-33FF-C4CA-C5CE-31E2C47B3F62" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nazev_techniky" id="281C3EB8-6AE9-B7E4-ABCF-4A327A9A852A">
+<Attribute name="nazev_skladu" id="281C3EB8-6AE9-B7E4-ABCF-4A327A9A852A">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-04-05 17:02:04 UTC</createdTime>
 <ownerDesignName>jezek</ownerDesignName>
 <engineerTo>
-<item key="AE46DC7B-2F00-81CB-82C1-A238B94916B3" value="true"/>
+<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="true"/>
+<item key="DF5C361E-33FF-C4CA-C5CE-31E2C47B3F62" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>500</dataTypeSize>
-<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<dataTypeSize>500 CHAR</dataTypeSize>
+<ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="popis" id="AEAE7C47-E7AA-44D5-B158-202F964BB5EB">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-04-05 15:27:44 UTC</createdTime>
 <ownerDesignName>jezek</ownerDesignName>
 <engineerTo>
-<item key="AE46DC7B-2F00-81CB-82C1-A238B94916B3" value="true"/>
+<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="true"/>
+<item key="DF5C361E-33FF-C4CA-C5CE-31E2C47B3F62" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>4000</dataTypeSize>
-<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<dataTypeSize>4000 CHAR</dataTypeSize>
+<ownDataTypeParameters>4000 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="porizovaci_cena" id="A5090C13-865B-6963-0979-24329C4CA913">
+<Attribute name="id_sidla" id="24FF530F-01C6-7550-62A6-A8039269816C">
 <createdBy>kubak182</createdBy>
-<createdTime>2020-04-11 17:35:34 UTC</createdTime>
+<createdTime>2020-06-27 18:32:06 UTC</createdTime>
+<generatorID>9D433518-16E6-51CE-84A9-022E6AFCEB96</generatorID>
 <ownerDesignName>jezek</ownerDesignName>
 <engineerTo>
-<item key="AE46DC7B-2F00-81CB-82C1-A238B94916B3" value="true"/>
+<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="true"/>
+<item key="DF5C361E-33FF-C4CA-C5CE-31E2C47B3F62" value="true"/>
 </engineerTo>
+<referedAttribute>C82DE62B-EA08-402B-7D22-330E7D18DA1A</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>38</dataTypePrecision>
-<dataTypeScale>2</dataTypeScale>
-<ownDataTypeParameters>,38,2</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="9F6E0416-6941-4BF3-5457-3EA40179AF9A" name="SKLAD_TECH_PK">
+<identifier id="9F6E0416-6941-4BF3-5457-3EA40179AF9A" name="PK_SKLAD_TECHNIKY">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-04-05 15:21:49 UTC</createdTime>
 <ownerDesignName>jezek</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="AE46DC7B-2F00-81CB-82C1-A238B94916B3" value="true"/>
+<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="false"/>
+<item key="DF5C361E-33FF-C4CA-C5CE-31E2C47B3F62" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <newElementsIDs>162D1F39-5266-760F-55A5-C56F095E625D</newElementsIDs>
@@ -83,12 +91,14 @@
 <attributeRef>162D1F39-5266-760F-55A5-C56F095E625D</attributeRef>
 </usedAttributes>
 </identifier>
-<identifier id="27B25E49-E585-FC0E-8BFC-55514EBBC6B5" name="Key_2">
+<identifier id="27B25E49-E585-FC0E-8BFC-55514EBBC6B5" name="UN_NAZEV_SKLADU">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-04-05 21:26:06 UTC</createdTime>
 <ownerDesignName>jezek</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="AE46DC7B-2F00-81CB-82C1-A238B94916B3" value="true"/>
+<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="false"/>
+<item key="DF5C361E-33FF-C4CA-C5CE-31E2C47B3F62" value="true"/>
 </engineerTo>
 <newElementsIDs>281C3EB8-6AE9-B7E4-ABCF-4A327A9A852A</newElementsIDs>
 <usedAttributes>

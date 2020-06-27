@@ -1,0 +1,40 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.relational.DPVRelationalSubView" name="From_LM_Logical - SubView_2" id="85AFB670-3275-1E51-8099-A84EDFDAE5C1">
+<createdBy>kubak182</createdBy>
+<modifiedBy>kubak182</modifiedBy>
+<createdTime>2020-06-27 17:31:24 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<generatorId>6F2141D7-8879-C705-64A2-C8E41565F2F4</generatorId>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="1D2CE167-07D9-91FC-F84F-EA81A39F1BF2" otype="Table" vid="F479E952-CF77-494E-4F49-E92F1FEA7372">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="511" y="50" width="145" height="67"/>
+<generatorID>4121C4AE-C290-71E7-6671-243EA53C9089</generatorID>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="DF2BFB27-95BD-2020-DF48-ED9A01492F45" otype="Table" vid="D8894056-C2F9-90B5-988E-5FBA5DC56EAD">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="15" y="50" width="170" height="110"/>
+<generatorID>2EE92B53-5AAD-D83B-3F2B-4C7B75DDB0F0</generatorID>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="6687908C-F36A-4F9B-EA22-591BFD014D27" otype="FKIndexAssociation" vid_source="D8894056-C2F9-90B5-988E-5FBA5DC56EAD" vid_target="F479E952-CF77-494E-4F49-E92F1FEA7372">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="185" y="98"/>
+<point x="511" y="98"/>
+</points>
+</Connector>
+</connectors>
+</Diagram>
