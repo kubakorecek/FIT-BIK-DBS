@@ -59,7 +59,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="CADA52E7-5D9B-1CB3-57AF-F7FFA1EC4E9E" referredColumn="5714041C-49BA-6537-A75C-83272C6887A5"/>
+<colAssociation fkAssociation="CE9FC0CA-36A8-3B86-F967-B0D951911269" referredColumn="53C19A52-E890-7AD9-DC02-CF3AD89B785C"/>
 </associations>
 </Column>
 </columns>
@@ -87,9 +87,9 @@
 <colUsage columnID="361D6C34-4227-3B97-C0F2-5ADCD1371747"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="1A291B89-DBF3-87FE-F7D3-B0072075B268" name="FK_SKL_TECH_SIDLO">
+<ind_PK_UK id="556618A7-4851-6FBE-1F64-901F43228E0E" name="FK_SKL_TECH_SIDLO">
 <createdBy>kubak182</createdBy>
-<createdTime>2020-06-27 18:32:28 UTC</createdTime>
+<createdTime>2020-06-28 08:54:34 UTC</createdTime>
 <generatorID>9D433518-16E6-51CE-84A9-022E6AFCEB96</generatorID>
 <ownerDesignName>jezek</ownerDesignName>
 <indexState>Foreign Key</indexState>

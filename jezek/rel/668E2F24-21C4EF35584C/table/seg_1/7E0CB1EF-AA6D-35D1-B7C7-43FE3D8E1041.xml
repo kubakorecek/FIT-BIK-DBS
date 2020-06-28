@@ -31,7 +31,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>100 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -72,7 +72,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="C5B59AAA-1D44-8CB4-6207-F6D2BE598B38" referredColumn="810494CF-B5EA-1BC1-FA22-4A955C105A0C"/>
+<colAssociation fkAssociation="52FD0E07-9B8A-B322-B7D0-387C0EBC5871" referredColumn="4CE7C9B3-02B4-F0BF-27C1-A2EF63B0095D"/>
 </associations>
 </Column>
 </columns>
@@ -100,9 +100,9 @@
 <colUsage columnID="E31A7C55-D069-3483-06DF-B824987059A1"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="986EC5E6-2C57-1883-E6A5-DB5912C00C73" name="FK_NAB_SL_ZAKAZKA">
+<ind_PK_UK id="F68DB6D5-54C5-EA1F-7FB8-36D6B21CD399" name="FK_NAB_SL_ZAKAZKA">
 <createdBy>kubak182</createdBy>
-<createdTime>2020-06-27 18:32:28 UTC</createdTime>
+<createdTime>2020-06-28 10:43:19 UTC</createdTime>
 <generatorID>53039709-D8DF-513A-3CD9-D7EB624AAB09</generatorID>
 <ownerDesignName>jezek</ownerDesignName>
 <indexState>Foreign Key</indexState>

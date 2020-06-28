@@ -11,8 +11,8 @@
 <targetPk>2F63DBA6-E5F7-65BF-8161-5D99C881BA82</targetPk>
 <identifying>false</identifying>
 <nameOnSource>je_skladem_materialu</nameOnSource>
-<optionalSource>true</optionalSource>
-<optionalTarget>false</optionalTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
 <sourceCardinality>*</sourceCardinality>
 <sourceEntity>EB38E086-D68B-A6DA-52C7-D387AC1A8C24</sourceEntity>
 <targetCardinalityString>1</targetCardinalityString>

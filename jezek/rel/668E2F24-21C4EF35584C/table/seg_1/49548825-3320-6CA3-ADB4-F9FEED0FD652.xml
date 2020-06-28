@@ -59,7 +59,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="841B7E87-55D0-F0F6-431B-8720D39E481C" referredColumn="810494CF-B5EA-1BC1-FA22-4A955C105A0C"/>
+<colAssociation fkAssociation="03EBCF49-6199-A461-FB09-5A1E23812719" referredColumn="4CE7C9B3-02B4-F0BF-27C1-A2EF63B0095D"/>
 </associations>
 </Column>
 </columns>
@@ -77,17 +77,6 @@
 <colUsage columnID="DE65085D-2A7C-79EC-5F09-AC762E80060D"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="27C07BCA-0CB0-7BD1-ADE4-F5C699339BDF" name="FK_OBJ_ZAKAZKA">
-<createdBy>kubak182</createdBy>
-<createdTime>2020-06-27 18:32:28 UTC</createdTime>
-<generatorID>12CA7171-2E19-E91E-CD2D-0B7D259A5D75</generatorID>
-<ownerDesignName>jezek</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="DE65085D-2A7C-79EC-5F09-AC762E80060D"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="168A8D78-1370-C63C-88FA-2C3D678A9252" name="FK_OBJ_ZAKAZNIK">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-27 18:32:28 UTC</createdTime>
@@ -97,6 +86,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="2683A7C5-5E98-7945-4BE2-5DCC4F17567A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C1CBF5CC-6322-2D57-A96F-1C842FCFB959" name="FK_OBJ_ZAKAZKA">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-28 10:43:19 UTC</createdTime>
+<generatorID>12CA7171-2E19-E91E-CD2D-0B7D259A5D75</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE65085D-2A7C-79EC-5F09-AC762E80060D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

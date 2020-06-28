@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="020628B4-291F-A5B5-56C7-EC4F7687E7C5" name="ZAKAZKA">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-28 10:43:19 UTC</createdTime>
+<generatorID>507E183C-CE74-2692-2873-B1F7545B8200</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_zakazky" id="4CE7C9B3-02B4-F0BF-27C1-A2EF63B0095D">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-28 10:43:19 UTC</createdTime>
+<generatorID>99FE7DDB-B8D3-78BF-BEC9-1DBA388B2649</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="celkova_cena" id="EB5FCCB2-0455-71E6-384D-CF402DF29EFF">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-28 10:43:19 UTC</createdTime>
+<generatorID>B6AD74D7-3B3C-AE19-9ACF-4B83F1433B01</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,38,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="poznamky" id="FDD98E99-B240-265C-4236-A2E93F8A9D27">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-28 10:43:19 UTC</createdTime>
+<generatorID>81DAFB1F-E782-1972-6E10-890F0EE03E0E</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FD05A8B4-2C0B-515A-A728-3574929E5DBC" name="PK_ZAKAZKA">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-28 10:43:19 UTC</createdTime>
+<generatorID>DED1F3EE-F9D0-76C7-AAF1-ABB18E25E73D</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CE7C9B3-02B4-F0BF-27C1-A2EF63B0095D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

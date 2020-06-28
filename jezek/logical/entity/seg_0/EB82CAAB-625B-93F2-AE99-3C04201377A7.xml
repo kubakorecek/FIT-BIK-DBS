@@ -22,38 +22,12 @@
 <createdTime>2020-04-05 17:25:54 UTC</createdTime>
 <ownerDesignName>jezek</ownerDesignName>
 <engineerTo>
-<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="true"/>
 <item key="DF5C361E-33FF-C4CA-C5CE-31E2C47B3F62" value="true"/>
+<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="datum_od" id="E12D75F1-744E-0517-CC35-94F86DE48A4F">
-<createdBy>kubak182</createdBy>
-<createdTime>2020-04-05 17:26:02 UTC</createdTime>
-<ownerDesignName>jezek</ownerDesignName>
-<engineerTo>
-<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="true"/>
-<item key="DF5C361E-33FF-C4CA-C5CE-31E2C47B3F62" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="datum_do" id="21103F03-1D9A-A89A-1899-AFCB225A5E89">
-<createdBy>kubak182</createdBy>
-<createdTime>2020-04-05 17:26:08 UTC</createdTime>
-<ownerDesignName>jezek</ownerDesignName>
-<engineerTo>
-<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="true"/>
-<item key="DF5C361E-33FF-C4CA-C5CE-31E2C47B3F62" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="poznamka" id="BCC5B417-E518-CA2A-3829-7812A741B7FE">
@@ -61,8 +35,8 @@
 <createdTime>2020-04-11 17:48:40 UTC</createdTime>
 <ownerDesignName>jezek</ownerDesignName>
 <engineerTo>
-<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="true"/>
 <item key="DF5C361E-33FF-C4CA-C5CE-31E2C47B3F62" value="true"/>
+<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -77,8 +51,8 @@
 <generatorID>4D80494C-5630-95D4-7BF8-9394AA8F8CEF</generatorID>
 <ownerDesignName>jezek</ownerDesignName>
 <engineerTo>
-<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="true"/>
 <item key="DF5C361E-33FF-C4CA-C5CE-31E2C47B3F62" value="true"/>
+<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="true"/>
 </engineerTo>
 <referedAttribute>162D1F39-5266-760F-55A5-C56F095E625D</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -86,20 +60,19 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_zakazky" id="43163666-11B0-FB7B-CBED-056C50E9A3DD">
+<Attribute name="jmeno_techniky" id="CF4F8E14-DD5C-40C7-9155-E8290C98EC55">
 <createdBy>kubak182</createdBy>
-<createdTime>2020-06-27 17:45:17 UTC</createdTime>
-<generatorID>326DEFE7-B3D7-0802-4C38-D995B577D0B6</generatorID>
+<createdTime>2020-06-28 09:56:25 UTC</createdTime>
 <ownerDesignName>jezek</ownerDesignName>
 <engineerTo>
 <item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="true"/>
 <item key="DF5C361E-33FF-C4CA-C5CE-31E2C47B3F62" value="true"/>
 </engineerTo>
-<referedAttribute>99FE7DDB-B8D3-78BF-BEC9-1DBA388B2649</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 CHAR</dataTypeSize>
+<ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -107,15 +80,15 @@
 <createdBy>kubak182</createdBy>
 <createdTime>2020-04-05 17:27:12 UTC</createdTime>
 <ownerDesignName>jezek</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="true"/>
 <item key="DF5C361E-33FF-C4CA-C5CE-31E2C47B3F62" value="true"/>
+<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>90C8BD2E-0520-0A59-1910-9DF0BE13D4CB</attributeRef>
 <attributeRef>5FC684FE-047F-3B75-E9B6-880C346B8C31</attributeRef>
-<attributeRef>43163666-11B0-FB7B-CBED-056C50E9A3DD</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -21,8 +21,8 @@
 <createdTime>2020-06-27 15:34:56 UTC</createdTime>
 <ownerDesignName>jezek</ownerDesignName>
 <engineerTo>
-<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="true"/>
 <item key="DF5C361E-33FF-C4CA-C5CE-31E2C47B3F62" value="true"/>
+<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -34,8 +34,8 @@
 <createdTime>2020-04-05 14:11:10 UTC</createdTime>
 <ownerDesignName>jezek</ownerDesignName>
 <engineerTo>
-<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="true"/>
 <item key="DF5C361E-33FF-C4CA-C5CE-31E2C47B3F62" value="true"/>
+<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -48,8 +48,8 @@
 <createdTime>2020-04-05 14:11:50 UTC</createdTime>
 <ownerDesignName>jezek</ownerDesignName>
 <engineerTo>
-<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="true"/>
 <item key="DF5C361E-33FF-C4CA-C5CE-31E2C47B3F62" value="true"/>
+<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -64,8 +64,8 @@
 <generatorID>0A750CD3-1DA0-7694-B8EE-F09DF9DA5883</generatorID>
 <ownerDesignName>jezek</ownerDesignName>
 <engineerTo>
-<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="true"/>
 <item key="DF5C361E-33FF-C4CA-C5CE-31E2C47B3F62" value="true"/>
+<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="true"/>
 </engineerTo>
 <referedAttribute>0A50166D-BADC-B909-91FB-8573E4D351E4</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -78,8 +78,8 @@
 <createdTime>2020-06-27 15:35:27 UTC</createdTime>
 <ownerDesignName>jezek</ownerDesignName>
 <engineerTo>
-<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="true"/>
 <item key="DF5C361E-33FF-C4CA-C5CE-31E2C47B3F62" value="true"/>
+<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -92,57 +92,27 @@
 <createdTime>2020-06-27 15:41:24 UTC</createdTime>
 <ownerDesignName>jezek</ownerDesignName>
 <engineerTo>
-<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="true"/>
 <item key="DF5C361E-33FF-C4CA-C5CE-31E2C47B3F62" value="true"/>
+<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="cena" id="5AA47ACA-A9D0-51A6-AF2B-6816C528899A">
-<createdBy>kubak182</createdBy>
-<createdTime>2020-06-27 15:41:29 UTC</createdTime>
-<ownerDesignName>jezek</ownerDesignName>
-<engineerTo>
-<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="true"/>
-<item key="DF5C361E-33FF-C4CA-C5CE-31E2C47B3F62" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypeScale>2</dataTypeScale>
-<ownDataTypeParameters>,,2</ownDataTypeParameters>
 </Attribute>
 <Attribute name="porizovaci_cena" id="182F29E8-C44C-A246-1674-29A6CBE71A49">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-27 15:41:34 UTC</createdTime>
 <ownerDesignName>jezek</ownerDesignName>
 <engineerTo>
-<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="true"/>
 <item key="DF5C361E-33FF-C4CA-C5CE-31E2C47B3F62" value="true"/>
+<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypeScale>2</dataTypeScale>
 <ownDataTypeParameters>,,2</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_zakazky" id="B4073CFC-DB20-67EC-DB4F-82B0FD9BBF08">
-<createdBy>kubak182</createdBy>
-<createdTime>2020-06-27 17:45:17 UTC</createdTime>
-<generatorID>F303FD7B-F110-8A09-76EB-0C3CD6C859BD</generatorID>
-<ownerDesignName>jezek</ownerDesignName>
-<engineerTo>
-<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="true"/>
-<item key="DF5C361E-33FF-C4CA-C5CE-31E2C47B3F62" value="true"/>
-</engineerTo>
-<referedAttribute>99FE7DDB-B8D3-78BF-BEC9-1DBA388B2649</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -150,16 +120,16 @@
 <createdBy>kubak182</createdBy>
 <createdTime>2020-04-04 14:47:49 UTC</createdTime>
 <ownerDesignName>jezek</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="true"/>
 <item key="DF5C361E-33FF-C4CA-C5CE-31E2C47B3F62" value="true"/>
+<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="false"/>
 </engineerTo>
 <pk>true</pk>
-<newElementsIDs>F303FD7B-F110-8A09-76EB-0C3CD6C859BD,0A750CD3-1DA0-7694-B8EE-F09DF9DA5883,AD7ACD9E-FC74-27FF-E40D-B4B49681D4FA</newElementsIDs>
+<newElementsIDs>0A750CD3-1DA0-7694-B8EE-F09DF9DA5883,AD7ACD9E-FC74-27FF-E40D-B4B49681D4FA</newElementsIDs>
 <usedAttributes>
 <attributeRef>6C254213-9EBD-3961-16A8-964EF7948CA9</attributeRef>
 <attributeRef>AD7ACD9E-FC74-27FF-E40D-B4B49681D4FA</attributeRef>
-<attributeRef>B4073CFC-DB20-67EC-DB4F-82B0FD9BBF08</attributeRef>
 </usedAttributes>
 </identifier>
 <identifier id="F646799F-73BF-F1C2-B9C2-53038C6440C0" name="UN_JMENO_MAT">
@@ -168,8 +138,8 @@
 <ownerDesignName>jezek</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="false"/>
 <item key="DF5C361E-33FF-C4CA-C5CE-31E2C47B3F62" value="true"/>
+<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="false"/>
 </engineerTo>
 <newElementsIDs>C5932C48-B7A1-46FE-43BF-6D1038818F25</newElementsIDs>
 <usedAttributes>

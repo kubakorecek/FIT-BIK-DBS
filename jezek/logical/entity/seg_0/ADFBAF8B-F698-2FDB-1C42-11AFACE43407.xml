@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ADFBAF8B-F698-2FDB-1C42-11AFACE43407" name="POUZITA_TECHNIKA">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-28 11:41:01 UTC</createdTime>
+<ownerDesignName>jezek</ownerDesignName>
+<engineerTo>
+<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="true"/>
+<item key="DF5C361E-33FF-C4CA-C5CE-31E2C47B3F62" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_seznamu_techniky" id="E475BA97-6648-385C-A435-F64513054082">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-28 11:41:38 UTC</createdTime>
+<generatorID>181D9025-C363-18E8-1EF1-F009AE692D1C</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<engineerTo>
+<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="true"/>
+<item key="DF5C361E-33FF-C4CA-C5CE-31E2C47B3F62" value="true"/>
+</engineerTo>
+<referedAttribute>90C8BD2E-0520-0A59-1910-9DF0BE13D4CB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_skladu_techniky" id="972843C1-4F22-C00B-D41B-672C7785BFB0">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-28 11:41:38 UTC</createdTime>
+<generatorID>181D9025-C363-18E8-1EF1-F009AE692D1C</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<engineerTo>
+<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="true"/>
+<item key="DF5C361E-33FF-C4CA-C5CE-31E2C47B3F62" value="true"/>
+</engineerTo>
+<referedAttribute>5FC684FE-047F-3B75-E9B6-880C346B8C31</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_zakazky" id="60BA9528-FFDA-C49E-A609-1D1776625778">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-28 11:41:49 UTC</createdTime>
+<generatorID>57320AE0-3C6E-588E-D701-557804EC0877</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<engineerTo>
+<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="true"/>
+<item key="DF5C361E-33FF-C4CA-C5CE-31E2C47B3F62" value="true"/>
+</engineerTo>
+<referedAttribute>99FE7DDB-B8D3-78BF-BEC9-1DBA388B2649</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datum_od" id="C70C40D4-B97A-7771-E1FA-4264BA8EDB30">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-28 11:42:51 UTC</createdTime>
+<ownerDesignName>jezek</ownerDesignName>
+<engineerTo>
+<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="true"/>
+<item key="DF5C361E-33FF-C4CA-C5CE-31E2C47B3F62" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datum_do" id="7DE9FECC-5833-9F0B-5346-985DAF535275">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-28 11:42:58 UTC</createdTime>
+<ownerDesignName>jezek</ownerDesignName>
+<engineerTo>
+<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="true"/>
+<item key="DF5C361E-33FF-C4CA-C5CE-31E2C47B3F62" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F7D4604A-26D1-E7CE-E69E-5843BB952DBB" name="PK_POUZITA_TECHNIKA">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-28 11:41:49 UTC</createdTime>
+<ownerDesignName>jezek</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="false"/>
+<item key="DF5C361E-33FF-C4CA-C5CE-31E2C47B3F62" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>60BA9528-FFDA-C49E-A609-1D1776625778</attributeRef>
+<attributeRef>E475BA97-6648-385C-A435-F64513054082</attributeRef>
+<attributeRef>972843C1-4F22-C00B-D41B-672C7785BFB0</attributeRef>
+<attributeRef>C70C40D4-B97A-7771-E1FA-4264BA8EDB30</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

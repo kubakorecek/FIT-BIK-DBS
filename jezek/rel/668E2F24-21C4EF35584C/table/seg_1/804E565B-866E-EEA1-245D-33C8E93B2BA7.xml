@@ -58,7 +58,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="BF30BF23-FFC0-A93F-F324-4889A47C794D" referredColumn="5714041C-49BA-6537-A75C-83272C6887A5"/>
+<colAssociation fkAssociation="E6E597A7-91A8-CFCB-FCAA-CE4623FEED1C" referredColumn="53C19A52-E890-7AD9-DC02-CF3AD89B785C"/>
 </associations>
 </Column>
 </columns>
@@ -86,9 +86,9 @@
 <colUsage columnID="018F620E-58D4-3E65-04E4-9CF2E8FCC63A"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="65B84574-CB83-C748-214D-E6A550FE4113" name="FK_ZAMEST_SIDLO">
+<ind_PK_UK id="F2281279-9900-02C8-6C42-2574CFD9ED8B" name="FK_ZAMEST_SIDLO">
 <createdBy>kubak182</createdBy>
-<createdTime>2020-06-27 18:32:28 UTC</createdTime>
+<createdTime>2020-06-28 08:54:34 UTC</createdTime>
 <generatorID>F515758B-6973-EC57-D16B-DCFA8ECFF5EC</generatorID>
 <ownerDesignName>jezek</ownerDesignName>
 <indexState>Foreign Key</indexState>
