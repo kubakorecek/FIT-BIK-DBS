@@ -31,17 +31,17 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>100 CHAR</dataTypeSize>
-<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="9302AEA4-806D-8A55-5E69-15ECA3A0F78F" referredColumn="349D395D-D7DC-89C7-95D3-0488517B99DB"/>
 </associations>
 </Column>
-<Column name="datum_do" id="FEDFAD42-7621-0CC9-4D67-8C1CFCBF0F3A">
+<Column name="datum_od" id="70FB5BC5-C9FB-42B8-FE99-7E90A3D9F411">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-27 18:32:28 UTC</createdTime>
-<generatorID>21BA11D8-29E9-9E46-F1A8-5DCC179055F8</generatorID>
+<generatorID>36CB85C0-3699-EBA8-3417-3119F1DCC3EA</generatorID>
 <ownerDesignName>jezek</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -49,11 +49,12 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="datum_od" id="70FB5BC5-C9FB-42B8-FE99-7E90A3D9F411">
+<Column name="datum_do" id="FEDFAD42-7621-0CC9-4D67-8C1CFCBF0F3A">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-27 18:32:28 UTC</createdTime>
-<generatorID>36CB85C0-3699-EBA8-3417-3119F1DCC3EA</generatorID>
+<generatorID>21BA11D8-29E9-9E46-F1A8-5DCC179055F8</generatorID>
 <ownerDesignName>jezek</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT008</logicalDatatype>

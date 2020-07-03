@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FC7BEA8E-C89D-CF11-3471-37033376D296" name="ZAMESTNANEC">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-29 17:25:28 UTC</createdTime>
+<generatorID>D8EB755E-5DC3-2333-2282-AFD145C2C94C</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<abbreviation>ZAMEST</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_zamestnanec" id="C6986337-1349-1DB6-91B2-35935CCB66D0">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-29 17:25:28 UTC</createdTime>
+<generatorID>5EC0080B-B218-99D1-1ADF-579A8D5549E3</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="osobni_cislo" id="E61A8E97-EE68-C777-314C-EF01D5544835">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-29 17:25:28 UTC</createdTime>
+<generatorID>EBC4AFD9-1BE2-F221-288C-A84CD932E16B</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="jmeno" id="1020C50E-F44B-6280-04AD-98E32A0B5B4B">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-29 17:25:28 UTC</createdTime>
+<generatorID>A6ACC3F0-A149-9136-8CAC-0087DA972B43</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_sidla" id="D13DD930-40BE-CE5C-29DB-32671514ABD4">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-29 17:25:28 UTC</createdTime>
+<generatorID>B76FFE01-F86F-17DD-B83F-322CE0F5F1D3</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BA6A03B7-D58E-6C07-175A-5B14BD27D662" name="PK_ZAMEST">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-29 17:25:28 UTC</createdTime>
+<generatorID>001C2DE6-F044-66C9-6205-FF4664BB5991</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6986337-1349-1DB6-91B2-35935CCB66D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="320076C0-C0F3-4315-EE86-4777E7904049" name="UX_ZAMEST_osobni_cislo">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-06-29 17:25:28 UTC</createdTime>
+<generatorID>22E38FEC-7762-3B55-7084-28BBAC54FC5D</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E61A8E97-EE68-C777-314C-EF01D5544835"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

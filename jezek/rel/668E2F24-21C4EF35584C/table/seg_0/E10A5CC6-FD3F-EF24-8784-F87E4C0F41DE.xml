@@ -46,7 +46,7 @@
 <colAssociation fkAssociation="AC972A4F-026F-90BA-486E-B4B5416CFED8" referredColumn="4CE7C9B3-02B4-F0BF-27C1-A2EF63B0095D"/>
 </associations>
 </Column>
-<Column name="MATERIAL" id="5967EF54-DCB0-99E2-8D5F-AFA0616C6C5C">
+<Column name="MATERIAL_SKLAD" id="5967EF54-DCB0-99E2-8D5F-AFA0616C6C5C">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-28 10:50:28 UTC</createdTime>
 <generatorID>D300A3F4-74B9-9E59-833C-4FE73B532A52</generatorID>
@@ -61,7 +61,7 @@
 <colAssociation fkAssociation="B9F7898A-1727-D5B4-CEB5-379381BE4921" referredColumn="B4F13121-135C-C738-3A9A-ABC8E2011993"/>
 </associations>
 </Column>
-<Column name="MATERIAL1" id="30B7F649-A5E8-24D2-53E6-DE0CF5AAF052">
+<Column name="MATERIAL" id="30B7F649-A5E8-24D2-53E6-DE0CF5AAF052">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-28 10:50:28 UTC</createdTime>
 <generatorID>F0D7283B-DF05-B4D4-6AD3-28D03002E566</generatorID>
