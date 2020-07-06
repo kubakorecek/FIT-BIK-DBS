@@ -53,7 +53,7 @@
 <colAssociation fkAssociation="C3A4A9C9-DD8D-16BC-AC3A-3C82018C671D" referredColumn="4CE7C9B3-02B4-F0BF-27C1-A2EF63B0095D"/>
 </associations>
 </Column>
-<Column name="datum_od" id="05571B70-66EC-6FC4-38B7-C8CE1DB235AE">
+<Column name="DATUM_OD" id="05571B70-66EC-6FC4-38B7-C8CE1DB235AE">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-28 11:43:42 UTC</createdTime>
 <generatorID>C70C40D4-B97A-7771-E1FA-4264BA8EDB30</generatorID>
@@ -64,7 +64,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="datum_do" id="8BB755FE-B187-19EF-3F3C-0A19E0A4B6BC">
+<Column name="DATUM_DO" id="8BB755FE-B187-19EF-3F3C-0A19E0A4B6BC">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-28 11:43:42 UTC</createdTime>
 <generatorID>7DE9FECC-5833-9F0B-5346-985DAF535275</generatorID>

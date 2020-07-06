@@ -10,7 +10,7 @@
 <keyObject>4CED223F-F07A-7E9C-1560-057528830BFA</keyObject>
 <referredKeyID>4CED223F-F07A-7E9C-1560-057528830BFA</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>id_adresy</refColNames>
+<refColNames>ID_ADRESY</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

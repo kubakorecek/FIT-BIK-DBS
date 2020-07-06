@@ -10,7 +10,7 @@
 <keyObject>B895DC5F-67C4-1B29-9F87-1D96D2E30975</keyObject>
 <referredKeyID>B895DC5F-67C4-1B29-9F87-1D96D2E30975</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>id_nazev_typu</refColNames>
+<refColNames>ID_NAZEV_TYPU</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

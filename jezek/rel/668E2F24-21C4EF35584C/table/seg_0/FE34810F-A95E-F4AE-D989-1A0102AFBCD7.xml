@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_sidla" id="53C19A52-E890-7AD9-DC02-CF3AD89B785C">
+<Column name="ID_SIDLA" id="53C19A52-E890-7AD9-DC02-CF3AD89B785C">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-28 08:54:34 UTC</createdTime>
 <generatorID>C82DE62B-EA08-402B-7D22-330E7D18DA1A</generatorID>
@@ -21,7 +21,7 @@
 <identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="jmeno" id="4F829E4F-5C34-B956-D6F0-9CEB9B1E3CE7">
+<Column name="JMENO" id="4F829E4F-5C34-B956-D6F0-9CEB9B1E3CE7">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-28 08:54:34 UTC</createdTime>
 <generatorID>757723D1-BD38-B473-7385-2D9020D52C51</generatorID>
@@ -48,7 +48,7 @@
 <colAssociation fkAssociation="09F4EFBE-A749-8BB3-AAE0-4C5C8A51CEF0" referredColumn="20AEED0C-E1A5-4D92-87BA-239FC37C3524"/>
 </associations>
 </Column>
-<Column name="plocha" id="1BD0C22A-2B52-D45F-32A0-BE720408DEAC">
+<Column name="PLOCHA" id="1BD0C22A-2B52-D45F-32A0-BE720408DEAC">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-28 08:54:34 UTC</createdTime>
 <generatorID>B6A67D60-CEF1-B063-2C06-39E2B3A23740</generatorID>
@@ -70,7 +70,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>50 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -91,7 +91,7 @@
 <colUsage columnID="53C19A52-E890-7AD9-DC02-CF3AD89B785C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="AC062053-538F-30AC-4778-CBF322F3AE9A" name="UX_SIDLO_jmeno">
+<ind_PK_UK id="AC062053-538F-30AC-4778-CBF322F3AE9A" name="UX_SIDLO_JMENO">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-28 08:54:34 UTC</createdTime>
 <generatorID>E73DD6EA-5F91-D871-2DA5-BC7B249FD7C6</generatorID>

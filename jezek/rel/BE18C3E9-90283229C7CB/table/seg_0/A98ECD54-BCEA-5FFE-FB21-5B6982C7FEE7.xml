@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A98ECD54-BCEA-5FFE-FB21-5B6982C7FEE7" name="MALOOBCHOD">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-07-06 10:16:48 UTC</createdTime>
+<generatorID>9589A1E6-2EA3-6C11-93D2-D3598149DF17</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<abbreviation>MAL_OBCH</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ZAKAZNIK" id="FD61E81D-648C-AB7F-25B9-92EC2B140670">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-07-06 10:16:48 UTC</createdTime>
+<generatorID>C6A8C45B-7C9D-F82E-25AD-A5AE17DDC2EA</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="03638556-9FC4-52DE-2631-9CE2D382CD22" referredColumn="BA793304-BC1F-FEDB-B3F0-1A5458C2930F"/>
+</associations>
+</Column>
+<Column name="MAL_OBCH_VEK" id="3DF4AF4B-20B0-A9AE-0948-ECFD68B714FF">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-07-06 10:16:48 UTC</createdTime>
+<generatorID>F0C3A246-23BE-C194-9266-80ED4FC8545B</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MAL_OBCH_POHLAVI" id="39F34F0F-5D0D-2D66-6377-65D4537CEC6C">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-07-06 10:16:48 UTC</createdTime>
+<generatorID>4836DC00-E235-FA1E-A462-B7C2FC19FAF3</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MAL_OBCH_PRIJMENI" id="F43B57D4-8F1D-15AC-4859-16CC5CF0AD0C">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-07-06 10:16:48 UTC</createdTime>
+<generatorID>A66C0251-CE76-692A-4D7C-446E197270F4</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MAL_OBCH_TITUL" id="60B37094-6778-E215-F8A8-AC2B06040FEA">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-07-06 10:16:48 UTC</createdTime>
+<generatorID>3F421503-F5A3-1988-21F4-B94DE63E8F0E</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2346156B-4D67-0A7F-574E-437B45EF3710" name="PK_MAL_OBCH">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-07-06 10:16:48 UTC</createdTime>
+<generatorID>FBB1D7FB-609D-9541-E02D-F8E64836FEF5</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD61E81D-648C-AB7F-25B9-92EC2B140670"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4CD58775-D0CF-5E94-E5C7-DC2D27C2F8E3" name="FK_MAL_OBCH_ZAKAZNIK">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-07-06 10:16:48 UTC</createdTime>
+<generatorID>D4CC41F8-A0CE-09A7-7295-DD096B2673FC</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD61E81D-648C-AB7F-25B9-92EC2B140670"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

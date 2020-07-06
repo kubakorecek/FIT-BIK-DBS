@@ -10,7 +10,7 @@
 <keyObject>E0F95B92-A2D3-FDB8-248B-2814248BE6B9</keyObject>
 <referredKeyID>E0F95B92-A2D3-FDB8-248B-2814248BE6B9</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>id_seznamu_techniky,SKLAD_TECHNIKY</refColNames>
+<refColNames>ID_SEZNAMU_TECHNIKY,SKLAD_TECHNIKY</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

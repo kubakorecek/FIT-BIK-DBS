@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_seznamu_tymu" id="92DC5A89-4815-AACE-1076-0E253D702771">
+<Column name="ID_SEZNAMU_TYMU" id="92DC5A89-4815-AACE-1076-0E253D702771">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-28 12:16:29 UTC</createdTime>
 <generatorID>FAB6EE8F-A0FE-08F2-17A0-F0FAED49E280</generatorID>
@@ -21,7 +21,7 @@
 <identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="datum_od" id="B061B1E4-320C-5CCB-AED6-032DED08474B">
+<Column name="DATUM_OD" id="B061B1E4-320C-5CCB-AED6-032DED08474B">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-28 12:16:29 UTC</createdTime>
 <generatorID>AB7FAF75-085E-8922-9A46-3C10266D8888</generatorID>
@@ -32,7 +32,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="datum_do" id="750858CE-C4C1-6C6C-DADB-F94F2F25EBEB">
+<Column name="DATUM_DO" id="750858CE-C4C1-6C6C-DADB-F94F2F25EBEB">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-28 12:16:29 UTC</createdTime>
 <generatorID>595FF0CB-3E0A-F46B-2BA1-D93FB215F814</generatorID>

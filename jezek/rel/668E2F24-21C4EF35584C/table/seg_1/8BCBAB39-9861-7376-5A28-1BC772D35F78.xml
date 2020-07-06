@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_typ_sluzby" id="349D395D-D7DC-89C7-95D3-0488517B99DB">
+<Column name="ID_TYP_SLUZBY" id="349D395D-D7DC-89C7-95D3-0488517B99DB">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-27 18:32:28 UTC</createdTime>
 <generatorID>9C16DDAE-E86F-8AC6-0BDE-732B1C8776EE</generatorID>
@@ -20,7 +20,7 @@
 <ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="popis" id="4E610B45-983D-D99F-DD61-4AF6316F81E4">
+<Column name="POPIS" id="4E610B45-983D-D99F-DD61-4AF6316F81E4">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-27 18:32:28 UTC</createdTime>
 <generatorID>DC295590-88BB-D402-8B91-D92EBBAAE712</generatorID>

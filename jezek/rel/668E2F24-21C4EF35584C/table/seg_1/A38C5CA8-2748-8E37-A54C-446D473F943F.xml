@@ -23,7 +23,7 @@
 <colAssociation fkAssociation="0850FCAC-9957-F9EE-3CB2-1E91004DF271" referredColumn="60365809-EAF4-0C4E-5104-36C475E2371A"/>
 </associations>
 </Column>
-<Column name="cas" id="C2EB65FB-296B-D450-3BCF-C624D02F624E">
+<Column name="CAS" id="C2EB65FB-296B-D450-3BCF-C624D02F624E">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-27 18:32:28 UTC</createdTime>
 <generatorID>43B929C5-9F3F-D61A-B720-CEA5D33E9F47</generatorID>
@@ -34,7 +34,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="naceneni" id="B4EBE6AF-447B-30F1-AE38-7B57CFA5C140">
+<Column name="NACENENI" id="B4EBE6AF-447B-30F1-AE38-7B57CFA5C140">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-27 18:32:28 UTC</createdTime>
 <generatorID>2199CD32-0147-C8BE-EDE8-9CA64B668B25</generatorID>

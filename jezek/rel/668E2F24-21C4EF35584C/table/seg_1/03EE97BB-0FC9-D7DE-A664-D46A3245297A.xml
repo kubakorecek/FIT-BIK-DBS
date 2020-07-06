@@ -9,7 +9,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_zakaznik" id="CFAE0A2A-52BE-A81B-E16C-F48B88F078FE">
+<Column name="ID_ZAKAZNIK" id="CFAE0A2A-52BE-A81B-E16C-F48B88F078FE">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-27 18:32:28 UTC</createdTime>
 <generatorID>C6A8C45B-7C9D-F82E-25AD-A5AE17DDC2EA</generatorID>
@@ -23,7 +23,7 @@
 <colAssociation fkAssociation="3D77E361-4112-AA20-4F25-A73F20AD1E17" referredColumn="14E31E5B-D4EB-A58D-50AB-1D3B11FE53D9"/>
 </associations>
 </Column>
-<Column name="MAL_OBCH_vek" id="A92A671D-F0DF-D4D5-D765-765E2073CAB9">
+<Column name="MAL_OBCH_VEK" id="A92A671D-F0DF-D4D5-D765-765E2073CAB9">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-27 18:32:28 UTC</createdTime>
 <generatorID>F0C3A246-23BE-C194-9266-80ED4FC8545B</generatorID>
@@ -35,7 +35,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="MAL_OBCH_pohlavi" id="B984D3B2-34DD-25DD-AD3C-3B4B5146EC45">
+<Column name="MAL_OBCH_POHLAVI" id="B984D3B2-34DD-25DD-AD3C-3B4B5146EC45">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-27 18:32:28 UTC</createdTime>
 <generatorID>4836DC00-E235-FA1E-A462-B7C2FC19FAF3</generatorID>
@@ -48,7 +48,7 @@
 <ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="MAL_OBCH_prijmeni" id="1A714C18-ACDC-5ECC-5842-1887E12DB6D6">
+<Column name="MAL_OBCH_PRIJMENI" id="1A714C18-ACDC-5ECC-5842-1887E12DB6D6">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-27 18:32:28 UTC</createdTime>
 <generatorID>A66C0251-CE76-692A-4D7C-446E197270F4</generatorID>
@@ -61,7 +61,7 @@
 <ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="MAL_OBCH_titul" id="9562C8C4-8183-C857-402A-7D59103D1188">
+<Column name="MAL_OBCH_TITUL" id="9562C8C4-8183-C857-402A-7D59103D1188">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-27 18:32:28 UTC</createdTime>
 <generatorID>3F421503-F5A3-1988-21F4-B94DE63E8F0E</generatorID>

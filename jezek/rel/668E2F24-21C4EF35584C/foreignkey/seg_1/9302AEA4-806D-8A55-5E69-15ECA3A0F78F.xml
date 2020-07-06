@@ -10,7 +10,7 @@
 <keyObject>4A77883B-00B4-E305-EA13-2D1038DEF353</keyObject>
 <referredKeyID>4A77883B-00B4-E305-EA13-2D1038DEF353</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>id_typ_sluzby</refColNames>
+<refColNames>ID_TYP_SLUZBY</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

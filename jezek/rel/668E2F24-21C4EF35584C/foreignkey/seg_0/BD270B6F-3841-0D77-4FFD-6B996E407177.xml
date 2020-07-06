@@ -10,7 +10,7 @@
 <keyObject>1641CDE9-193E-7008-9C34-EF74FD658CC1</keyObject>
 <referredKeyID>1641CDE9-193E-7008-9C34-EF74FD658CC1</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>id_sidla</refColNames>
+<refColNames>ID_SIDLA</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

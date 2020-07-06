@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EDC95769-D6B6-D427-DC66-BBCED893C3A1" containerWithKeyObject="04439F97-048A-47A5-92D0-59F99D77E421" localFKIndex="4D7EC70D-05EA-54B0-6B4B-CBD439B22391" name="FK_MATERIAL_SKL_MAT">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-07-06 10:28:37 UTC</createdTime>
+<generatorID>0A750CD3-1DA0-7694-B8EE-F09DF9DA5883</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<referredTableLongName>SKLAD_MATERIALU</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>00B0A4B3-4715-BF90-D2B9-E4938481C38F</referredTableID>
+<keyObject>699AC273-F5C9-F469-2EEA-8AB3FD6B7446</keyObject>
+<referredKeyID>699AC273-F5C9-F469-2EEA-8AB3FD6B7446</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_SKLADU_MATERIALU</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

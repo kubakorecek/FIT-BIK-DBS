@@ -10,7 +10,7 @@
 <keyObject>FD05A8B4-2C0B-515A-A728-3574929E5DBC</keyObject>
 <referredKeyID>FD05A8B4-2C0B-515A-A728-3574929E5DBC</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>id_zakazky</refColNames>
+<refColNames>ID_ZAKAZKY</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

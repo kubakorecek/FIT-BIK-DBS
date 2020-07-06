@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_zakazky" id="4CE7C9B3-02B4-F0BF-27C1-A2EF63B0095D">
+<Column name="ID_ZAKAZKY" id="4CE7C9B3-02B4-F0BF-27C1-A2EF63B0095D">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-28 10:43:19 UTC</createdTime>
 <generatorID>99FE7DDB-B8D3-78BF-BEC9-1DBA388B2649</generatorID>
@@ -21,7 +21,7 @@
 <identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="celkova_cena" id="EB5FCCB2-0455-71E6-384D-CF402DF29EFF">
+<Column name="CELKOVA_CENA" id="EB5FCCB2-0455-71E6-384D-CF402DF29EFF">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-28 10:43:19 UTC</createdTime>
 <generatorID>B6AD74D7-3B3C-AE19-9ACF-4B83F1433B01</generatorID>
@@ -34,7 +34,7 @@
 <ownDataTypeParameters>,38,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="poznamky" id="FDD98E99-B240-265C-4236-A2E93F8A9D27">
+<Column name="POZNAMKY" id="FDD98E99-B240-265C-4236-A2E93F8A9D27">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-28 10:43:19 UTC</createdTime>
 <generatorID>81DAFB1F-E782-1972-6E10-890F0EE03E0E</generatorID>

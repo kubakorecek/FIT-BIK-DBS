@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_tymu" id="ED901A41-EC7D-6FF3-CAFE-CCEBEC5ADBB2">
+<Column name="ID_TYMU" id="ED901A41-EC7D-6FF3-CAFE-CCEBEC5ADBB2">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-27 18:32:28 UTC</createdTime>
 <generatorID>A1B536F2-DA14-C785-0CFE-D9023728D215</generatorID>
@@ -21,7 +21,7 @@
 <identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="nazev" id="CBD2AB28-C888-8E71-1F86-2A589AAF2F7D">
+<Column name="NAZEV" id="CBD2AB28-C888-8E71-1F86-2A589AAF2F7D">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-27 18:32:28 UTC</createdTime>
 <generatorID>72DFD550-DD7A-6C13-29FB-45D2916DE0CC</generatorID>
@@ -33,7 +33,7 @@
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="popis" id="6778D9C7-0814-7A0D-A82D-FCB088A2FD97">
+<Column name="POPIS" id="6778D9C7-0814-7A0D-A82D-FCB088A2FD97">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-27 18:32:28 UTC</createdTime>
 <generatorID>0B1A987C-2E94-A591-148F-3D26512FC4B7</generatorID>
@@ -60,7 +60,7 @@
 <colUsage columnID="ED901A41-EC7D-6FF3-CAFE-CCEBEC5ADBB2"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="BCAD0BD9-D82B-9BBD-26DA-9478978B2D2D" name="UX_TYM_nazev">
+<ind_PK_UK id="BCAD0BD9-D82B-9BBD-26DA-9478978B2D2D" name="UX_TYM_NAZEV">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-27 18:32:28 UTC</createdTime>
 <generatorID>FCFCAC25-5DF5-38EF-8E1E-8F0E6BC59C2E</generatorID>

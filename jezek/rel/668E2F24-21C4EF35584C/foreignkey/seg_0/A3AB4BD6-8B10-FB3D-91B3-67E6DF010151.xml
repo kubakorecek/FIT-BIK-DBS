@@ -10,7 +10,7 @@
 <keyObject>AAF0F0D0-E44D-2CD1-AFE5-A27CD5A4F473</keyObject>
 <referredKeyID>AAF0F0D0-E44D-2CD1-AFE5-A27CD5A4F473</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>id_tymu</refColNames>
+<refColNames>ID_TYMU</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

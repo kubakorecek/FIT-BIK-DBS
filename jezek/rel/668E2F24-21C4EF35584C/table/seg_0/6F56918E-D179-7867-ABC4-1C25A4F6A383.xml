@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_materialu" id="9AA6D597-8876-5C74-99BF-5372F78CE947">
+<Column name="ID_MATERIALU" id="9AA6D597-8876-5C74-99BF-5372F78CE947">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-28 10:51:48 UTC</createdTime>
 <generatorID>AD7ACD9E-FC74-27FF-E40D-B4B49681D4FA</generatorID>
@@ -21,7 +21,7 @@
 <identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="mnozstvi" id="9FFD7787-AC36-900F-6509-AA075CD57A41">
+<Column name="MNOZSTVI" id="9FFD7787-AC36-900F-6509-AA075CD57A41">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-28 10:51:48 UTC</createdTime>
 <generatorID>00311B41-8053-0C34-E65A-58A9A709FEFC</generatorID>
@@ -33,7 +33,7 @@
 <ownDataTypeParameters>,,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="popis" id="615EC666-48BC-5AC0-CA3C-D502813BBC2B">
+<Column name="POPIS" id="615EC666-48BC-5AC0-CA3C-D502813BBC2B">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-28 10:51:48 UTC</createdTime>
 <generatorID>F4D45207-8303-7090-53CE-7EEC19D8E27A</generatorID>
@@ -61,7 +61,7 @@
 <colAssociation fkAssociation="7D092431-F205-DFFE-1D1C-652E9DD779AC" referredColumn="9FAF8440-0C37-9C91-ECC1-B98C214E0DC5"/>
 </associations>
 </Column>
-<Column name="jmeno_materialu" id="EF6F11AD-399A-6CAE-47F5-99CCB1510989">
+<Column name="JMENO_MATERIALU" id="EF6F11AD-399A-6CAE-47F5-99CCB1510989">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-28 10:51:48 UTC</createdTime>
 <generatorID>C5932C48-B7A1-46FE-43BF-6D1038818F25</generatorID>
@@ -73,7 +73,7 @@
 <ownDataTypeParameters>300 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="skladem" id="FA6CEF35-5345-2E4F-9AD3-D8E07987581A">
+<Column name="SKLADEM" id="FA6CEF35-5345-2E4F-9AD3-D8E07987581A">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-28 10:51:48 UTC</createdTime>
 <generatorID>EEB95B05-8BAC-9DA5-F0ED-EDA746748344</generatorID>
@@ -84,7 +84,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="porizovaci_cena" id="BC2F683D-2736-C0CF-19B2-C778F123F444">
+<Column name="PORIZOVACI_CENA" id="BC2F683D-2736-C0CF-19B2-C778F123F444">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-28 10:51:48 UTC</createdTime>
 <generatorID>182F29E8-C44C-A246-1674-29A6CBE71A49</generatorID>
@@ -111,7 +111,7 @@
 <colUsage columnID="9AA6D597-8876-5C74-99BF-5372F78CE947"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="BBE419B6-52F3-89C5-DC9A-9A7DC28928CE" name="UX_MATERIAL_jmeno_materialu">
+<ind_PK_UK id="BBE419B6-52F3-89C5-DC9A-9A7DC28928CE" name="UX_MATERIAL_JMENO_MATERIALU">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-28 10:51:48 UTC</createdTime>
 <generatorID>F646799F-73BF-F1C2-B9C2-53038C6440C0</generatorID>

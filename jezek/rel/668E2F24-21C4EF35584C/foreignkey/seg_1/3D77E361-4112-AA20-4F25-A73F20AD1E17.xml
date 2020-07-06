@@ -11,7 +11,7 @@
 <keyObject>800C7457-4D45-1809-44A6-59585100AE69</keyObject>
 <referredKeyID>800C7457-4D45-1809-44A6-59585100AE69</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>id_zakaznik</refColNames>
+<refColNames>ID_ZAKAZNIK</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <discriminatorValue>MAL_OBCH</discriminatorValue>

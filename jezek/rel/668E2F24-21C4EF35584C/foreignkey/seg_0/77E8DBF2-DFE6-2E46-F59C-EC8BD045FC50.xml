@@ -10,7 +10,7 @@
 <keyObject>6CB80320-7F5B-E69D-0350-3FA9A9B36574</keyObject>
 <referredKeyID>6CB80320-7F5B-E69D-0350-3FA9A9B36574</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>id_skladu_techniky</refColNames>
+<refColNames>ID_SKLADU_TECHNIKY</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

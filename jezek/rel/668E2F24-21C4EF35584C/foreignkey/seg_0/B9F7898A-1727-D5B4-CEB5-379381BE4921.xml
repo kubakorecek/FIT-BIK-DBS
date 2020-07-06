@@ -10,7 +10,7 @@
 <keyObject>D019FEF4-712C-08B2-D562-45F1939ACDBB</keyObject>
 <referredKeyID>D019FEF4-712C-08B2-D562-45F1939ACDBB</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>SKLAD_MATERIALU,id_materialu</refColNames>
+<refColNames>SKLAD_MATERIALU,ID_MATERIALU</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

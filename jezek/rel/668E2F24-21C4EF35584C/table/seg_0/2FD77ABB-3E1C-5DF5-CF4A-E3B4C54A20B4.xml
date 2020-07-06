@@ -9,7 +9,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_seznamu_techniky" id="572823BA-1C6C-8287-E094-B4B334270A1F">
+<Column name="ID_SEZNAMU_TECHNIKY" id="572823BA-1C6C-8287-E094-B4B334270A1F">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-28 11:50:19 UTC</createdTime>
 <generatorID>90C8BD2E-0520-0A59-1910-9DF0BE13D4CB</generatorID>
@@ -22,7 +22,7 @@
 <identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="poznamka" id="09047317-ADD4-FD4C-E1FB-DC108F663D08">
+<Column name="POZNAMKA" id="09047317-ADD4-FD4C-E1FB-DC108F663D08">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-28 11:50:19 UTC</createdTime>
 <generatorID>BCC5B417-E518-CA2A-3829-7812A741B7FE</generatorID>
@@ -50,7 +50,7 @@
 <colAssociation fkAssociation="77E8DBF2-DFE6-2E46-F59C-EC8BD045FC50" referredColumn="7102D815-D631-049A-0467-856BFFA01A24"/>
 </associations>
 </Column>
-<Column name="jmeno_techniky" id="7ED9891F-5AC0-23A0-71D0-A4187D60ED2A">
+<Column name="JMENO_TECHNIKY" id="7ED9891F-5AC0-23A0-71D0-A4187D60ED2A">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-28 11:50:19 UTC</createdTime>
 <generatorID>CF4F8E14-DD5C-40C7-9155-E8290C98EC55</generatorID>

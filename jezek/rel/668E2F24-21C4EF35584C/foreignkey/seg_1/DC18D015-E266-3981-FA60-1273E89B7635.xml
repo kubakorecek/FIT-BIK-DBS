@@ -11,7 +11,7 @@
 <keyObject>2BD2EFC1-F2DA-D7D9-95AC-E4D5D9BC5656</keyObject>
 <referredKeyID>2BD2EFC1-F2DA-D7D9-95AC-E4D5D9BC5656</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>id_nabidky</refColNames>
+<refColNames>ID_NABIDKY</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <discriminatorValue>REALIZACE</discriminatorValue>

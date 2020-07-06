@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EA830F8B-C503-47CF-0CEC-0E28E4D4CF26" name="CLEN">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-07-06 10:28:37 UTC</createdTime>
+<generatorID>CB654844-0821-45C3-DFCD-7CC94C8EC0D8</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CLEN_OD" id="90F4FD99-7EB0-5D26-A826-63DB3A0EEE5A">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-07-06 10:28:37 UTC</createdTime>
+<generatorID>D6954547-6CA4-2440-7024-1F9CCE8E8A42</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<defaultValue>SYSDATE</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLEN_DO" id="C553E237-1EF7-0197-4332-B161C0C9F0A7">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-07-06 10:28:37 UTC</createdTime>
+<generatorID>81B7E00B-8DD9-9C8D-AEE7-5DB766B6067A</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_ZAMESTNANEC" id="9470E7C9-B1E5-72D3-5441-3DB5BA5287D8">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-07-06 10:28:37 UTC</createdTime>
+<generatorID>EE70E51D-EC78-CC97-7798-7010B6CA5899</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5B14A38E-1A44-89E6-AAA5-62BB4B116B32" referredColumn="216EDF3F-104C-4D2B-60AA-CD7E8748A1D2"/>
+</associations>
+</Column>
+<Column name="ID_TYMU" id="18CE97C7-CF8B-3519-F0F9-D3E8E034EB95">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-07-06 10:28:37 UTC</createdTime>
+<generatorID>B255A950-AE62-3937-4CE7-795411AD7A38</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6505BFC4-0F08-6401-1020-4D175E887130" referredColumn="42F0B2BD-5434-1B5C-4180-35BA4A920899"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5E489C25-1843-281A-1EF9-BE8A44FF71DD" name="PK_CLEN">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-07-06 10:28:37 UTC</createdTime>
+<generatorID>F9FF965B-B5CC-AF0A-0CCC-B5F00D39E6D8</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="90F4FD99-7EB0-5D26-A826-63DB3A0EEE5A"/>
+<colUsage columnID="9470E7C9-B1E5-72D3-5441-3DB5BA5287D8"/>
+<colUsage columnID="18CE97C7-CF8B-3519-F0F9-D3E8E034EB95"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4F90F767-3339-B501-A9D0-A543BEBCD5A2" name="FK_CLEN_ZAMEST">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-07-06 10:28:37 UTC</createdTime>
+<generatorID>A9BE1BD6-4AD9-51E8-E8D3-904808E30576</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9470E7C9-B1E5-72D3-5441-3DB5BA5287D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4620C816-F82D-EFAA-AD79-384D314295D2" name="FK_CLEN_TYM">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-07-06 10:28:37 UTC</createdTime>
+<generatorID>60966E2C-0DAD-E3EC-DF7C-39C7073D82FF</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18CE97C7-CF8B-3519-F0F9-D3E8E034EB95"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

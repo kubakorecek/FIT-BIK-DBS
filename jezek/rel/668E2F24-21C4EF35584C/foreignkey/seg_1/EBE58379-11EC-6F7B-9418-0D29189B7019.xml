@@ -10,7 +10,7 @@
 <keyObject>F328C74F-A73F-C297-FAE0-42B0D4951ED3</keyObject>
 <referredKeyID>F328C74F-A73F-C297-FAE0-42B0D4951ED3</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>id_zamestnanec</refColNames>
+<refColNames>ID_ZAMESTNANEC</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="229A0DE7-CF97-062E-C073-11118FF3200E" containerWithKeyObject="22A18516-FF8B-B112-D1B9-D2A59D89E2C0" localFKIndex="5F481940-C29D-84C6-2308-126DCB2A93F2" name="FK_NAB_SL_TYP_SLUZBY">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-07-06 10:28:37 UTC</createdTime>
+<generatorID>BEFB9779-5134-C2F0-B9CB-9F732B62EE57</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<referredTableLongName>TYP_SLUZBY</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EF09B9CF-4216-F8D1-73E1-553426CA5773</referredTableID>
+<keyObject>E02933D1-2B9C-480A-E9D8-56946AA71998</keyObject>
+<referredKeyID>E02933D1-2B9C-480A-E9D8-56946AA71998</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_TYP_SLUZBY</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

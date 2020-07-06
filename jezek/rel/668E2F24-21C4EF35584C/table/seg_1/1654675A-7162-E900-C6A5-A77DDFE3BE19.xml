@@ -9,7 +9,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_zakaznik" id="DFDCE98F-72D8-88A3-D605-FAE6EFC6EF23">
+<Column name="ID_ZAKAZNIK" id="DFDCE98F-72D8-88A3-D605-FAE6EFC6EF23">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-27 18:32:28 UTC</createdTime>
 <generatorID>C6A8C45B-7C9D-F82E-25AD-A5AE17DDC2EA</generatorID>
@@ -77,7 +77,7 @@
 <colUsage columnID="DFDCE98F-72D8-88A3-D605-FAE6EFC6EF23"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="951E6D20-0856-3798-90D3-EEA863E1F48A" name="PK_VEL_OBCHv1">
+<ind_PK_UK id="951E6D20-0856-3798-90D3-EEA863E1F48A" name="PK_VEL_OBCHV1">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-27 18:32:28 UTC</createdTime>
 <generatorID>372E1B7C-7B37-D4DC-B98C-C13BFA9449A0</generatorID>

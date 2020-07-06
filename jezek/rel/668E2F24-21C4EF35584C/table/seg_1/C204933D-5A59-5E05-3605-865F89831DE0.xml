@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="clen_od" id="AEBA443A-6064-AEEA-6ED5-AE7BC076AC76">
+<Column name="CLEN_OD" id="AEBA443A-6064-AEEA-6ED5-AE7BC076AC76">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-27 18:32:28 UTC</createdTime>
 <generatorID>D6954547-6CA4-2440-7024-1F9CCE8E8A42</generatorID>
@@ -20,7 +20,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="clen_do" id="F49FBAF0-C3DC-BEBE-5896-D9380BA98803">
+<Column name="CLEN_DO" id="F49FBAF0-C3DC-BEBE-5896-D9380BA98803">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-27 18:32:28 UTC</createdTime>
 <generatorID>81B7E00B-8DD9-9C8D-AEE7-5DB766B6067A</generatorID>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8417C399-A417-C657-DFEA-61E76844B319" containerWithKeyObject="FD5CCB00-0AAF-309C-AF27-0D75FB6E424D" localFKIndex="BC5222F9-B182-B7C7-9A15-57F13FA2ECF1" name="FK_VEL_OBCH_ZAKAZNIK">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-07-06 10:28:37 UTC</createdTime>
+<generatorID>1A010B11-5D71-482C-BC35-6168E7D8C1DF</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<referredTableLongName>ZAKAZNIK</referredTableLongName>
+<arc>1666A390-814A-048F-10F9-4909E189AB36</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>09735796-22CF-C547-E546-F430F3AC1BA1</referredTableID>
+<keyObject>EA69DDCA-E533-8454-6AC8-B8718DB8DE5F</keyObject>
+<referredKeyID>EA69DDCA-E533-8454-6AC8-B8718DB8DE5F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_ZAKAZNIK</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>VEL_OBCH</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

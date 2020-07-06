@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0214BF3C-23A1-0550-CB0D-23FDD1DDD1B8" name="SEZNAM_TYMU">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-07-06 10:16:48 UTC</createdTime>
+<generatorID>2B72896B-E451-9C15-EDFE-9626CC02918B</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_SEZNAMU_TYMU" id="75C6DD2D-2C95-A06A-65F9-80595F6DDFBE">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-07-06 10:16:48 UTC</createdTime>
+<generatorID>FAB6EE8F-A0FE-08F2-17A0-F0FAED49E280</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATUM_OD" id="8615F098-0459-2CCD-2265-6CB7DC8C9616">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-07-06 10:16:48 UTC</createdTime>
+<generatorID>AB7FAF75-085E-8922-9A46-3C10266D8888</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATUM_DO" id="E80C0F71-A557-2035-81C8-7FFB4B24F99D">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-07-06 10:16:48 UTC</createdTime>
+<generatorID>595FF0CB-3E0A-F46B-2BA1-D93FB215F814</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_TYMU" id="59DC13C2-CFDB-EF17-5443-69C28DFB7AA2">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-07-06 10:16:48 UTC</createdTime>
+<generatorID>8B31D6EF-7ECA-C071-B892-3C84CCA9B08B</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="86C273FF-481E-3902-5814-EA52431DF970" referredColumn="43DA54B5-697E-E4AE-AC14-A5C774310CE2"/>
+</associations>
+</Column>
+<Column name="ID_ZAKAZKY" id="B5B9701B-1264-3183-6A0D-61E3A82A3C66">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-07-06 10:16:48 UTC</createdTime>
+<generatorID>68340F61-417B-4BA5-3E49-8C074FBA1882</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="604BC531-F072-08BF-ACE8-3494D40CAA7A" referredColumn="B1124520-DCC4-F351-22BE-91FE59CD7B2F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B68140BE-6B59-E75D-60B1-EE20FE9CE9DD" name="PK_SEZNAM_TYMU">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-07-06 10:16:48 UTC</createdTime>
+<generatorID>0F91797C-028A-A653-7410-9CB8FB426F19</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="75C6DD2D-2C95-A06A-65F9-80595F6DDFBE"/>
+<colUsage columnID="59DC13C2-CFDB-EF17-5443-69C28DFB7AA2"/>
+<colUsage columnID="B5B9701B-1264-3183-6A0D-61E3A82A3C66"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2A0B17AB-EBB4-239B-8E6C-D570F75E9229" name="FK_SEZNAM_TYMU_TYM">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-07-06 10:16:48 UTC</createdTime>
+<generatorID>37971541-0D52-0AFB-B35B-9A846716B014</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59DC13C2-CFDB-EF17-5443-69C28DFB7AA2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C73BBACD-8F43-8A9D-493A-30ED6B2E8235" name="FK_SEZNAM_TYMU_ZAKAZKA">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-07-06 10:16:48 UTC</createdTime>
+<generatorID>CA4D51DA-FC96-C882-D407-C0FCE6793AB0</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5B9701B-1264-3183-6A0D-61E3A82A3C66"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

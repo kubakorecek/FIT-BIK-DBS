@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_zakaznik" id="14E31E5B-D4EB-A58D-50AB-1D3B11FE53D9">
+<Column name="ID_ZAKAZNIK" id="14E31E5B-D4EB-A58D-50AB-1D3B11FE53D9">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-27 18:32:28 UTC</createdTime>
 <generatorID>C6A8C45B-7C9D-F82E-25AD-A5AE17DDC2EA</generatorID>
@@ -21,7 +21,7 @@
 <identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="telefon" id="E97682E7-4F68-19E4-5CA4-0FA7CEFCF645">
+<Column name="TELEFON" id="E97682E7-4F68-19E4-5CA4-0FA7CEFCF645">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-27 18:32:28 UTC</createdTime>
 <generatorID>2B82179D-E7DF-1F90-900B-D1AB447789C7</generatorID>
@@ -49,7 +49,7 @@
 <colAssociation fkAssociation="460AFBD8-F18C-D243-B4F2-3761C20C7D48" referredColumn="20AEED0C-E1A5-4D92-87BA-239FC37C3524"/>
 </associations>
 </Column>
-<Column name="jmeno" id="6D6AB41D-E1A1-F240-FE24-7D6F1B37F609">
+<Column name="JMENO" id="6D6AB41D-E1A1-F240-FE24-7D6F1B37F609">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-27 18:32:28 UTC</createdTime>
 <generatorID>BFD41B6C-9DA4-606B-7C38-E342A2ED261A</generatorID>
@@ -61,7 +61,7 @@
 <ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="email" id="18870943-2FD2-0D12-11F7-152EEDB4BA12">
+<Column name="EMAIL" id="18870943-2FD2-0D12-11F7-152EEDB4BA12">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-27 18:32:28 UTC</createdTime>
 <generatorID>54E68E98-75DF-FF79-1871-86E079715F7F</generatorID>
@@ -104,7 +104,7 @@
 <colUsage columnID="14E31E5B-D4EB-A58D-50AB-1D3B11FE53D9"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="678F757A-36D1-7243-9483-3E1F2893E12A" name="UX_ZAKAZNIK_telefon">
+<ind_PK_UK id="678F757A-36D1-7243-9483-3E1F2893E12A" name="UX_ZAKAZNIK_TELEFON">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-27 18:32:28 UTC</createdTime>
 <generatorID>E9855D4D-DD94-86DD-5E94-D726A056EE08</generatorID>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0807D470-4FA4-04E1-BD61-44BD3BF6884B" containerWithKeyObject="4CE64A65-FEBF-E9FB-ED52-B77ACDBE888A" localFKIndex="FC2919A1-14C9-26A5-2AB5-5911A6D75646" name="FK_ZAMEST_SIDLO">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-07-06 10:16:48 UTC</createdTime>
+<generatorID>F515758B-6973-EC57-D16B-DCFA8ECFF5EC</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<referredTableLongName>SIDLO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>872B853B-537C-305A-3FDF-AFE1AB455B9E</referredTableID>
+<keyObject>78F017FA-C193-AB5C-AF70-DC6578CBCE0E</keyObject>
+<referredKeyID>78F017FA-C193-AB5C-AF70-DC6578CBCE0E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_SIDLA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

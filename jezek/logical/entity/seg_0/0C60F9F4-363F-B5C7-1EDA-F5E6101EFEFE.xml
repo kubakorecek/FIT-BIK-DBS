@@ -6,6 +6,9 @@
 <engineerTo>
 <item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="true"/>
 <item key="DF5C361E-33FF-C4CA-C5CE-31E2C47B3F62" value="true"/>
+<item key="7E249FA1-D66A-3F0B-EC51-B4B1F1AA779C" value="true"/>
+<item key="0304952C-C710-0D15-F07B-1E9313AE3F91" value="true"/>
+<item key="BE18C3E9-9072-69E3-305E-90283229C7CB" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -23,8 +26,11 @@
 <generatorID>60E42145-BC81-2E4B-9707-C8B0E75DF9E9</generatorID>
 <ownerDesignName>jezek</ownerDesignName>
 <engineerTo>
-<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="true"/>
 <item key="DF5C361E-33FF-C4CA-C5CE-31E2C47B3F62" value="true"/>
+<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="true"/>
+<item key="7E249FA1-D66A-3F0B-EC51-B4B1F1AA779C" value="true"/>
+<item key="0304952C-C710-0D15-F07B-1E9313AE3F91" value="true"/>
+<item key="BE18C3E9-9072-69E3-305E-90283229C7CB" value="true"/>
 </engineerTo>
 <referedAttribute>C6A8C45B-7C9D-F82E-25AD-A5AE17DDC2EA</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -37,8 +43,11 @@
 <createdTime>2020-04-05 14:05:50 UTC</createdTime>
 <ownerDesignName>jezek</ownerDesignName>
 <engineerTo>
-<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="true"/>
 <item key="DF5C361E-33FF-C4CA-C5CE-31E2C47B3F62" value="true"/>
+<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="true"/>
+<item key="7E249FA1-D66A-3F0B-EC51-B4B1F1AA779C" value="true"/>
+<item key="0304952C-C710-0D15-F07B-1E9313AE3F91" value="true"/>
+<item key="BE18C3E9-9072-69E3-305E-90283229C7CB" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -53,10 +62,14 @@
 <engineerTo>
 <item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="true"/>
 <item key="DF5C361E-33FF-C4CA-C5CE-31E2C47B3F62" value="true"/>
+<item key="7E249FA1-D66A-3F0B-EC51-B4B1F1AA779C" value="true"/>
+<item key="0304952C-C710-0D15-F07B-1E9313AE3F91" value="true"/>
+<item key="BE18C3E9-9072-69E3-305E-90283229C7CB" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT008</logicalDatatype>
+<defaultValue>1.1.3000</defaultValue>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id_zakazky" id="8FB27AC5-20A7-59B9-BD19-6F436F55577C">
@@ -65,8 +78,11 @@
 <generatorID>12CA7171-2E19-E91E-CD2D-0B7D259A5D75</generatorID>
 <ownerDesignName>jezek</ownerDesignName>
 <engineerTo>
-<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="true"/>
 <item key="DF5C361E-33FF-C4CA-C5CE-31E2C47B3F62" value="true"/>
+<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="true"/>
+<item key="7E249FA1-D66A-3F0B-EC51-B4B1F1AA779C" value="true"/>
+<item key="0304952C-C710-0D15-F07B-1E9313AE3F91" value="true"/>
+<item key="BE18C3E9-9072-69E3-305E-90283229C7CB" value="true"/>
 </engineerTo>
 <referedAttribute>99FE7DDB-B8D3-78BF-BEC9-1DBA388B2649</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -80,10 +96,12 @@
 <createdBy>kubak182</createdBy>
 <createdTime>2020-04-05 13:54:47 UTC</createdTime>
 <ownerDesignName>jezek</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="false"/>
 <item key="DF5C361E-33FF-C4CA-C5CE-31E2C47B3F62" value="true"/>
+<item key="668E2F24-6817-AFCC-BE84-21C4EF35584C" value="false"/>
+<item key="7E249FA1-D66A-3F0B-EC51-B4B1F1AA779C" value="true"/>
+<item key="0304952C-C710-0D15-F07B-1E9313AE3F91" value="true"/>
+<item key="BE18C3E9-9072-69E3-305E-90283229C7CB" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

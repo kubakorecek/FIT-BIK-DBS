@@ -23,7 +23,7 @@
 <colAssociation fkAssociation="DC18D015-E266-3981-FA60-1273E89B7635" referredColumn="60365809-EAF4-0C4E-5104-36C475E2371A"/>
 </associations>
 </Column>
-<Column name="plocha" id="7D411955-9853-C39B-414C-B6045343FBD2">
+<Column name="PLOCHA" id="7D411955-9853-C39B-414C-B6045343FBD2">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-27 18:32:28 UTC</createdTime>
 <generatorID>C70DCABA-4366-C977-1DAD-1C42C5F0F8B9</generatorID>
@@ -35,7 +35,7 @@
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="naceneni" id="30010EEF-C9E6-4CF6-1A19-78B22537E63C">
+<Column name="NACENENI" id="30010EEF-C9E6-4CF6-1A19-78B22537E63C">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-27 18:32:28 UTC</createdTime>
 <generatorID>331D2DA1-6782-8E2A-162B-ADB607B2062E</generatorID>
@@ -48,7 +48,7 @@
 <ownDataTypeParameters>,38,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="cas" id="211DC395-6A98-FEA4-A253-300211958618">
+<Column name="CAS" id="211DC395-6A98-FEA4-A253-300211958618">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-27 18:32:28 UTC</createdTime>
 <generatorID>3C362D4F-FE8B-579B-B886-AD27E6F5756D</generatorID>

@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A0386C82-D5E0-7A3C-ADB9-E35AC68B6F64" name="OBJEDNAVKA">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-07-06 10:16:48 UTC</createdTime>
+<generatorID>0C60F9F4-363F-B5C7-1EDA-F5E6101EFEFE</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<abbreviation>OBJ</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ZAKAZNIK" id="AA5CF043-225B-03B3-C16A-76AF60394F92">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-07-06 10:16:48 UTC</createdTime>
+<generatorID>DADD14D1-822C-5C3C-79A2-7A13555FEC12</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E4131412-607D-9038-BFAD-438C39F92556" referredColumn="BA793304-BC1F-FEDB-B3F0-1A5458C2930F"/>
+</associations>
+</Column>
+<Column name="DATUM_PRIJETI" id="1843F4C8-31C0-1F3C-4778-EEAA57134E8C">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-07-06 10:16:48 UTC</createdTime>
+<generatorID>D5454FF4-7972-56B3-A06F-73B4FFDDA953</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<defaultValue>SYSDATE</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATUM_VYRIZENI" id="AF61958C-2CAC-31C2-D8EC-18DBE6EB7AE2">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-07-06 10:16:48 UTC</createdTime>
+<generatorID>1BC0F597-1C87-215D-F921-96613E55DD89</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<defaultValue>1.1.3000</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_ZAKAZKY" id="2A615E67-E9A9-3A68-2FF5-4166A5246E1E">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-07-06 10:16:48 UTC</createdTime>
+<generatorID>8FB27AC5-20A7-59B9-BD19-6F436F55577C</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6C390BFF-85CA-689E-4A4A-AC704E25802D" referredColumn="B1124520-DCC4-F351-22BE-91FE59CD7B2F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7C840651-91CD-A8E3-D391-CC8EFC919BB6" name="PK_OBJ">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-07-06 10:16:48 UTC</createdTime>
+<generatorID>75595B50-C751-0D64-1A1A-B10D1B95AAA4</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA5CF043-225B-03B3-C16A-76AF60394F92"/>
+<colUsage columnID="2A615E67-E9A9-3A68-2FF5-4166A5246E1E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9243FD3F-C3C6-A32B-F3AA-4B82FD6413E3" name="FK_OBJ_ZAKAZKA">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-07-06 10:16:48 UTC</createdTime>
+<generatorID>12CA7171-2E19-E91E-CD2D-0B7D259A5D75</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A615E67-E9A9-3A68-2FF5-4166A5246E1E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="91B81D22-AD0A-13D4-2AF4-657B48C936BE" name="FK_OBJ_ZAKAZNIK">
+<createdBy>kubak182</createdBy>
+<createdTime>2020-07-06 10:16:48 UTC</createdTime>
+<generatorID>60E42145-BC81-2E4B-9707-C8B0E75DF9E9</generatorID>
+<ownerDesignName>jezek</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA5CF043-225B-03B3-C16A-76AF60394F92"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

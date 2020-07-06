@@ -9,7 +9,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_zamestnanec" id="5DD20FF5-8DD4-FE20-6BB3-9A7561EB7040">
+<Column name="ID_ZAMESTNANEC" id="5DD20FF5-8DD4-FE20-6BB3-9A7561EB7040">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-27 18:32:28 UTC</createdTime>
 <generatorID>5EC0080B-B218-99D1-1ADF-579A8D5549E3</generatorID>
@@ -22,7 +22,7 @@
 <identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="osobni_cislo" id="018F620E-58D4-3E65-04E4-9CF2E8FCC63A">
+<Column name="OSOBNI_CISLO" id="018F620E-58D4-3E65-04E4-9CF2E8FCC63A">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-27 18:32:28 UTC</createdTime>
 <generatorID>EBC4AFD9-1BE2-F221-288C-A84CD932E16B</generatorID>
@@ -34,7 +34,7 @@
 <ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="jmeno" id="82392DE7-7EF8-6602-D2D6-352DFFDEC2D0">
+<Column name="JMENO" id="82392DE7-7EF8-6602-D2D6-352DFFDEC2D0">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-27 18:32:28 UTC</createdTime>
 <generatorID>A6ACC3F0-A149-9136-8CAC-0087DA972B43</generatorID>
@@ -75,7 +75,7 @@
 <colUsage columnID="5DD20FF5-8DD4-FE20-6BB3-9A7561EB7040"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="B23C5B97-0490-B3A6-9FB0-D2BD72AF48BD" name="UX_ZAMEST_osobni_cislo">
+<ind_PK_UK id="B23C5B97-0490-B3A6-9FB0-D2BD72AF48BD" name="UX_ZAMEST_OSOBNI_CISLO">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-27 18:32:28 UTC</createdTime>
 <generatorID>22E38FEC-7762-3B55-7084-28BBAC54FC5D</generatorID>

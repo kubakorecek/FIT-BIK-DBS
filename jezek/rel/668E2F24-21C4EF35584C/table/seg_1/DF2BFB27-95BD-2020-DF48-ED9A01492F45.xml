@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_adresy" id="20AEED0C-E1A5-4D92-87BA-239FC37C3524">
+<Column name="ID_ADRESY" id="20AEED0C-E1A5-4D92-87BA-239FC37C3524">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-27 18:32:28 UTC</createdTime>
 <generatorID>4DA2D550-114C-63A0-F1B0-F02CDC1A5658</generatorID>
@@ -21,7 +21,7 @@
 <identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ulice" id="3E57C891-C357-CC24-62E0-C2D5617A2F5C">
+<Column name="ULICE" id="3E57C891-C357-CC24-62E0-C2D5617A2F5C">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-27 18:32:28 UTC</createdTime>
 <generatorID>64508011-F833-75EB-0373-EC7FFDF79830</generatorID>
@@ -33,7 +33,7 @@
 <ownDataTypeParameters>1000 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="cislo_popisne" id="9344ADE9-4DE4-8DE5-4BAE-7C5A00C48CF3">
+<Column name="CISLO_POPISNE" id="9344ADE9-4DE4-8DE5-4BAE-7C5A00C48CF3">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-27 18:32:28 UTC</createdTime>
 <generatorID>021EC98E-4574-A459-79FA-B692854D299A</generatorID>
@@ -44,7 +44,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="psc" id="AB832EBF-C874-A9FD-FAC6-66B8901C7935">
+<Column name="PSC" id="AB832EBF-C874-A9FD-FAC6-66B8901C7935">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-27 18:32:28 UTC</createdTime>
 <generatorID>69BBB32D-EC69-296F-4D62-04CB5CCEAC63</generatorID>
@@ -57,7 +57,7 @@
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="mesto" id="27E588D0-F890-B247-84FF-0D5A30CD6C66">
+<Column name="MESTO" id="27E588D0-F890-B247-84FF-0D5A30CD6C66">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-27 18:32:28 UTC</createdTime>
 <generatorID>68DB173E-B27C-A7FE-0278-6545E9DB720D</generatorID>
@@ -69,7 +69,7 @@
 <ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="stat" id="A27F8A8F-1070-8FEE-70AA-A122C08C58AA">
+<Column name="STAT" id="A27F8A8F-1070-8FEE-70AA-A122C08C58AA">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-27 18:32:28 UTC</createdTime>
 <generatorID>CB774E66-7943-4837-45EF-A3A0C19E906F</generatorID>
@@ -81,7 +81,7 @@
 <ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="orientacni_cislo" id="F2361503-B88C-BA4B-0AF3-05DCBB4BDE46">
+<Column name="ORIENTACNI_CISLO" id="F2361503-B88C-BA4B-0AF3-05DCBB4BDE46">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-27 18:32:28 UTC</createdTime>
 <generatorID>D5B92E82-CDC3-B2F0-0ABC-3912C5E7DC49</generatorID>

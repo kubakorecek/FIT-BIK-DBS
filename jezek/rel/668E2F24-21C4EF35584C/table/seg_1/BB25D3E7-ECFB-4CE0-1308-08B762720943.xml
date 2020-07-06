@@ -9,7 +9,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_skladu_techniky" id="7102D815-D631-049A-0467-856BFFA01A24">
+<Column name="ID_SKLADU_TECHNIKY" id="7102D815-D631-049A-0467-856BFFA01A24">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-27 18:32:28 UTC</createdTime>
 <generatorID>162D1F39-5266-760F-55A5-C56F095E625D</generatorID>
@@ -22,7 +22,7 @@
 <identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="nazev_skladu" id="361D6C34-4227-3B97-C0F2-5ADCD1371747">
+<Column name="NAZEV_SKLADU" id="361D6C34-4227-3B97-C0F2-5ADCD1371747">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-27 18:32:28 UTC</createdTime>
 <generatorID>281C3EB8-6AE9-B7E4-ABCF-4A327A9A852A</generatorID>
@@ -34,7 +34,7 @@
 <ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="popis" id="8E57B1F5-2951-0E02-36FB-D52ADE27D0E0">
+<Column name="POPIS" id="8E57B1F5-2951-0E02-36FB-D52ADE27D0E0">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-27 18:32:28 UTC</createdTime>
 <generatorID>AEAE7C47-E7AA-44D5-B158-202F964BB5EB</generatorID>
@@ -76,7 +76,7 @@
 <colUsage columnID="7102D815-D631-049A-0467-856BFFA01A24"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="42621267-48A4-2E5A-2494-1062898EA16A" name="UX_SKL_TECH_nazev_skladu">
+<ind_PK_UK id="42621267-48A4-2E5A-2494-1062898EA16A" name="UX_SKL_TECH_NAZEV_SKLADU">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-27 18:32:28 UTC</createdTime>
 <generatorID>27B25E49-E585-FC0E-8BFC-55514EBBC6B5</generatorID>

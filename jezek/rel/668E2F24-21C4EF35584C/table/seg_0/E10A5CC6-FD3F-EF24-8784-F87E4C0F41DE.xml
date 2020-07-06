@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="mnozstvi" id="0FE35BB0-5245-88FD-09F7-162C35038E4C">
+<Column name="MNOZSTVI" id="0FE35BB0-5245-88FD-09F7-162C35038E4C">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-28 10:49:18 UTC</createdTime>
 <generatorID>2674F032-3E30-5CC4-FB2E-9ABD1C00B621</generatorID>
@@ -19,7 +19,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="cena" id="1865D92F-A5BA-BB2E-C11D-A281B97798B6">
+<Column name="CENA" id="1865D92F-A5BA-BB2E-C11D-A281B97798B6">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-28 10:49:18 UTC</createdTime>
 <generatorID>53EE2F93-47F6-01DB-99B3-25A7028312D6</generatorID>
@@ -78,7 +78,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="BE55C7C9-BBEA-19F1-62AB-4964153C2782" name="PK_OBSAHUJEv2">
+<ind_PK_UK id="BE55C7C9-BBEA-19F1-62AB-4964153C2782" name="PK_OBSAHUJEV2">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-28 10:51:48 UTC</createdTime>
 <generatorID>52B7EA8B-F164-D5FB-CB1E-6FE702953A5D</generatorID>

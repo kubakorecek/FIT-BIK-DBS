@@ -24,7 +24,7 @@
 <colAssociation fkAssociation="C314196E-6A39-3F0B-D56C-E89401555F69" referredColumn="14E31E5B-D4EB-A58D-50AB-1D3B11FE53D9"/>
 </associations>
 </Column>
-<Column name="datum_prijeti" id="FA9C7924-EB3A-6C5A-2F14-7659B3467A61">
+<Column name="DATUM_PRIJETI" id="FA9C7924-EB3A-6C5A-2F14-7659B3467A61">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-27 18:32:28 UTC</createdTime>
 <generatorID>D5454FF4-7972-56B3-A06F-73B4FFDDA953</generatorID>
@@ -36,7 +36,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="datum_vyrizeni" id="1C8AD1ED-D3FE-5E31-C80F-BA32984FA837">
+<Column name="DATUM_VYRIZENI" id="1C8AD1ED-D3FE-5E31-C80F-BA32984FA837">
 <createdBy>kubak182</createdBy>
 <createdTime>2020-06-27 18:32:28 UTC</createdTime>
 <generatorID>1BC0F597-1C87-215D-F921-96613E55DD89</generatorID>
